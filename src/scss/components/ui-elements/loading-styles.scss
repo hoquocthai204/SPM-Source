@@ -1,0 +1,22 @@
+.loader {
+  background-color: #eeee;
+  width: 100%;
+  overflow: hidden;
+}
+.loader--swipe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, #eeeeee 10%, #dddddd 50%, #eeeeee 90%);
+  animation: loaderSwipeAnim 1s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  height: 100%;
+}
+@keyframes loaderSwipeAnim {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}

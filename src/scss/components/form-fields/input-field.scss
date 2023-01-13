@@ -1,0 +1,29 @@
+.inputUnit {
+  height: 46px !important;
+  .ant-input-group-addon {
+    background-color: #ffffff;
+  }
+
+  .ant-input-wrapper.ant-input-group {
+    .ant-input {
+      border-right-width: 0px;
+    }
+  }
+  .ant-input:focus {
+    border-right-width: 1px !important;
+  }
+}
+.inputMaxAndUnit {
+  .ant-input-group-addon {
+    background-color: #ffffff;
+  }
+
+  .ant-input-wrapper.ant-input-group {
+    #amount {
+      border-right-width: 0px;
+    }
+  }
+  #amount:focus {
+    border-right-width: 1px !important;
+  }
+}

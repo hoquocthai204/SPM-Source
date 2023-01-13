@@ -1,0 +1,136 @@
+.logo-container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  /* a circle with 60x60 pixels */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+
+  svg{
+    z-index: 1;
+  }
+}
+
+.background,
+.spinner {
+  position: absolute;
+  display: inline-block;
+ 
+  height: 100%;
+  width: 100%;
+}
+
+  .background {
+    border-radius: 50%;
+  }
+
+.logo {
+  z-index: 2;
+}
+
+.spinner {
+  border-radius: 50%;
+  border: 7px solid #f3f3f3;
+  border-top: 7px solid #08A19C;
+  box-shadow: 0 -7px 7px #6cbe9c;
+  background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+
+  /* add spin animation */
+  animation: spin 1.4s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader__overlay{
+    cursor: not-allowed! important;
+    position: absolute;
+    margin: 0px 12px;
+    z-index: 2;
+    left: 0;
+    top: 0px;
+    right: 0;
+    background-image: rgba(0,0,0,0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+// .loader__overlay::before{
+//     content: '';
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     opacity: 0.1;
+// }
+
+// LOADING OF TABLE
+.logo-container--table {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  /* a circle with 60x60 pixels */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+
+  svg{
+    z-index: 1;
+  }
+}
+
+.background__table,
+.spinner__table {
+  position: absolute;
+  display: inline-block;
+ 
+  height: 100%;
+  width: 100%;
+}
+
+  .background__table {
+    border-radius: 50%;
+  }
+
+.logo {
+  z-index: 2;
+}
+
+.spinner__table {
+  border-radius: 50%;
+  border: 7px solid #f3f3f3;
+  border-top: 7px solid #08A19C;
+  box-shadow: 0 -7px 7px #6cbe9c;
+  background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+
+  /* add spin animation */
+  animation: spin 1.4s linear infinite;
+}
+
+.loader__overlay--table{
+  cursor: not-allowed! important;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 0px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

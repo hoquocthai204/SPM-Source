@@ -1,0 +1,31 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  &.default {
+    > span {
+      &:last-child {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  &.small {
+    > span {
+      svg {
+        width: 10px;
+      }
+      &:last-child {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  svg {
+  }
+}

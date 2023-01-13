@@ -1,0 +1,47 @@
+//variable
+@import './variable.scss';
+@import './themes/app-theme.scss';
+
+// base...
+@import './generic/normalize.scss';
+@import './generic/box-sizing.scss';
+@import './base/base.scss';
+@import './generic/grid.scss';
+
+@import './layout/landing-header.scss';
+@import './layout/product-sider.scss';
+
+@import './components/commons/verify-code-input-field.scss';
+@import './components/form-fields/phone-input-field.scss';
+@import './components/alert-banners/news-banner.scss';
+@import './components/alert-banners/info-banner.scss';
+@import './components/modals/base-modal.scss';
+@import './components/button-go-back/button-go-back.scss';
+@import './components/table/table-common.scss';
+@import './components/form-fields/search-input.scss';
+@import './components/commons/breadcrumb.scss';
+@import './components/form-fields/input-field.scss';
+@import './components/commons/ellipsis-multi-line.scss';
+@import './components/ui-elements/loading-styles.scss';
+@import './components/ui-elements/loading.scss';
+
+// features...
+@import './features/auth.scss';
+@import './features/home.scss';
+@import './features/landing.scss';
+@import './features/market.scss';
+@import './features/wallet.scss';
+@import './features/setting.scss';
+@import './features/static.scss';
+@import './features/notification.scss';
+@import './features/news.scss';
+@import './features/add-user-bank.scss';
+@import './features/setUp2FA.scss';
+@import './features/bank.scss';
+@import './features/transaction-history.scss';
+@import './features/trade.scss';
+@import './features/order-history.scss';
+@import './features/fiat-deposit.scss';
+@import './features/manage-address-book.scss';
+@import './features/kyc.scss';
+@import './features/session-history.scss';

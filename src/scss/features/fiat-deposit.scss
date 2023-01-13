@@ -1,0 +1,469 @@
+.fiat-deposit-wrapper {
+  color: #555555;
+  padding: 10px;
+  .fiat-deposit-overview {
+    //customize select
+    .ant-select-selector {
+      padding: 0px 11px 0px 0px;
+    }
+    .ant-select-selection-item {
+      font-size: 24px;
+      color: #555555;
+    }
+    // width: calc(100% - 459px);
+
+    &__table {
+      border: 1px solid #e1e3e7;
+      border-radius: 8px;
+
+      .site-custom-tab-bar {
+        margin-bottom: 0px;
+      }
+      .site-custom-tab-bar::before {
+        border-bottom: 0px;
+      }
+
+      .ant-tabs-tab + .ant-tabs-tab {
+        margin: 0;
+      }
+
+      .ant-tabs-nav-list {
+        width: 100%;
+        gap: 16px;
+        .ant-tabs-tab {
+          color: #76809d;
+          height: 36px;
+          font-weight: 500;
+          font-size: 14px;
+        }
+        .ant-tabs-tab {
+          padding: 8px 12px;
+          border-radius: 6px;
+        }
+        .ant-tabs-tab.ant-tabs-tab-active {
+          .ant-tabs-tab-btn {
+            color: #1409a0;
+            font-weight: 500;
+            font-size: 14px;
+          }
+
+          background: #ededfc;
+        }
+      }
+
+      .ant-tabs.ant-tabs-top > div:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 11px 12px;
+      }
+
+      .ant-tabs > .ant-tabs-nav,
+      .ant-tabs > div > .ant-tabs-nav {
+        flex: 1 1 auto;
+      }
+      .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+        display: none;
+      }
+      .ant-tabs-content
+        .ant-tabs-tabpane
+        .ant-table-container
+        .ant-table-content
+        .ant-table-tbody
+        .ant-table-cell
+        div.ant-typography {
+        margin-bottom: 0;
+      }
+      .ant-table-container .ant-table-tbody > tr > td {
+        padding: 6px 16px 6px 24px;
+      }
+      .ant-table-container table > thead > tr:first-child th {
+        padding: 4px 24px;
+      }
+    }
+  }
+}
+
+// DEPSIT/WITHDRWAL
+.exchange-deposit-withdrawl {
+  // filter: blur(2px);
+  position: relative;
+  box-sizing: content-box;
+  min-width: 459px;
+  border: 1px solid #e1e3e7;
+  border-radius: 8px;
+  // padding: 13px 14px;
+
+  .site-custom-tab-bar-right {
+    display: flex;
+    flex-flow: row nowrap;
+    // width: 431px;
+
+    .ant-tabs-nav-list {
+      margin: auto;
+      // margin-top: 13px;
+      height: 37px;
+      margin: 13px 14px 0px 14px;
+      width: 100%;
+      .ant-tabs-tab {
+        min-width: 50%;
+        // min-width: 215.5px;
+        // padding: 10px 32px;
+        margin: 0px;
+        border: 1px solid #e1e3e7;
+
+        .ant-tabs-tab-btn {
+          margin: 0px auto;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+          color: #848e9c;
+        }
+      }
+      .ant-tabs-tab:nth-child(1) {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+      .ant-tabs-tab:nth-child(2) {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+      }
+      // tabs active
+      .ant-tabs-tab-active {
+        background: #e8fcf1;
+
+        border: none;
+        .ant-tabs-tab-btn {
+          color: #1e2329 !important;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+
+    .ant-tabs-ink-bar-animated {
+      display: none !important;
+    }
+  }
+  //infor-banner
+  .info-banner {
+    margin-top: 14px;
+  }
+  .site-custom-tab-bar-right::before {
+    border-bottom: 0px !important;
+  }
+  &__info {
+    margin: 0px 14px 30px 14px;
+    // width: 431px;
+  }
+  &__form {
+    // filter: blur(0px);
+    margin: 0px 14px;
+    .ant-typography-copy {
+      margin-left: 16px;
+    }
+    .ant-select-selector {
+      height: 46px !important;
+
+      .ant-select-selection-item,
+      .ant-select-selection-placeholder {
+        margin: auto 0px;
+      }
+    }
+    .ant-select-selector .ant-select-selection-search-input {
+      height: 100% !important;
+    }
+    .ant-input-wrapper.ant-input-group .ant-input {
+      height: 46px !important;
+    }
+    .ant-input {
+      height: 46px !important;
+    }
+  }
+  &__result {
+    margin: 0px 14px;
+    .ant-input {
+      height: 46px !important;
+    }
+  }
+
+  // form
+  form {
+    label {
+      font-weight: 500;
+    }
+
+    .buttonSelectQuick {
+      .ant-form-item-control-input {
+        // margin: auto!important;
+      }
+
+      .ant-radio-group.ant-radio-group-outline {
+        display: flex;
+        gap: 6px;
+        justify-content: center;
+
+        .ant-radio-button-wrapper {
+          position: relative;
+          flex-basis: 24%;
+          height: 22px;
+          border-radius: 4px;
+          outline: none;
+          border: none;
+          background-color: #f2f3f5;
+
+          span:nth-child(2) {
+            font-weight: 400;
+            font-size: 12px;
+            color: #5a6689;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+
+        .ant-radio-button-wrapper::before {
+          width: 0;
+        }
+
+        .ant-radio-button-wrapper:focus-within {
+          box-shadow: none !important;
+        }
+
+        .ant-radio-button-wrapper.ant-radio-button-wrapper-checked {
+          background-color: #08a19c;
+          border-color: #08a19c;
+          span:nth-child(2) {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  // Address book
+  .site-custom-tab-bar-address-book {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0px 0px 8px 0px !important;
+    .ant-tabs-tab + .ant-tabs-tab {
+      margin: 0;
+    }
+
+    .ant-tabs-nav-list {
+      justify-content: center;
+      width: 100%;
+      gap: 16px;
+      .ant-tabs-tab {
+        color: #76809d;
+        height: 25px;
+        font-weight: 500;
+        font-size: 12px;
+      }
+      .ant-tabs-tab {
+        width: 110px;
+        padding: 8px 12px;
+        border-radius: 6px;
+      }
+      .ant-tabs-tab.ant-tabs-tab-active {
+        .ant-tabs-tab-btn {
+          margin: 0 auto;
+          color: #1409a0;
+          font-weight: 500;
+          font-size: 12px;
+        }
+
+        background: #ededfc;
+      }
+    }
+
+    .ant-tabs.ant-tabs-top > div:first-child {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 11px 12px;
+    }
+
+    .ant-tabs > .ant-tabs-nav,
+    .ant-tabs > div > .ant-tabs-nav {
+      flex: 1 1 auto;
+    }
+    .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+      display: none;
+    }
+  }
+  .site-custom-tab-bar-address-book::before {
+    border-bottom: 0px !important;
+  }
+  .addOn {
+    display: inline-flex;
+    gap: 3px;
+
+    span:nth-child(1) {
+      color: #357ce1;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    span:nth-child(2) {
+      color: #d1d5db;
+    }
+    span:nth-child(3) {
+      color: #838e9c;
+    }
+  }
+
+  .withdraw-address-book {
+    margin-top: 30px;
+    label {
+      width: 100%;
+    }
+  }
+
+  .withdraw-address-book__info {
+    margin-top: 6px;
+    margin-bottom: 30px;
+
+    width: 100%;
+    word-break: break-word;
+
+    .table__address {
+      display: table;
+
+      .tr {
+        display: table-row;
+
+        .td {
+          display: table-cell;
+        }
+      }
+    }
+  }
+  .qrCode_Maxbit img {
+    border-radius: 50%;
+  }
+}
+//--------------
+
+.text-md-14-gray {
+  font-weight: 500;
+  font-size: 14px;
+  color: #848e9c;
+}
+.text-md-14-black {
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e2329;
+}
+
+// --------- RESPONSIVE ---------
+/* Mobile  width < 740px*/
+@media only screen and (max-width: 46.1875em) {
+  .fiat-deposit {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .fiat-deposit-overview__bg {
+    display: none;
+  }
+  .exchange-deposit-withdrawl__bg {
+    display: none;
+  }
+  .fiat-deposit-overview {
+    order: 2;
+  }
+  .exchange-deposit-withdrawl {
+    order: 1;
+    min-width: 100%;
+    .site-custom-tab-bar-right {
+      margin: 13px 14px !important;
+
+      .ant-tabs-nav-list .ant-tabs-tab {
+        min-width: 50%;
+      }
+    }
+
+    .ant-tabs-nav-list {
+      width: 100%;
+    }
+  }
+
+  .exchange-deposit-withdrawl .site-custom-tab-bar-right .ant-tabs-nav-list {
+    margin: auto;
+  }
+  .fiat-deposit__balance {
+    display: flex;
+    flex-flow: column nowrap;
+
+    gap: 15px;
+  }
+}
+
+/* Tablet width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .fiat-deposit {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .fiat-deposit-overview__bg {
+    display: none;
+  }
+  .fiat-deposit-overview {
+    order: 2;
+  }
+  .exchange-deposit-withdrawl {
+    order: 1;
+    min-width: 100%;
+    .site-custom-tab-bar-right {
+      margin: 13px 14px !important;
+
+      .ant-tabs-nav-list .ant-tabs-tab {
+        min-width: 50%;
+      }
+    }
+
+    .ant-tabs-nav-list {
+      width: 100%;
+    }
+  }
+
+  .exchange-deposit-withdrawl .site-custom-tab-bar-right .ant-tabs-nav-list {
+    margin: auto;
+  }
+}
+
+/* PC width >= 1024px*/
+@media only screen and (min-width: 63.9375em) and (max-width: 75em) {
+  .fiat-deposit-overview {
+    width: calc(100% - 400px);
+  }
+
+  .fiat-deposit-overview__bg {
+    display: none;
+  }
+
+  .exchange-deposit-withdrawl {
+    min-width: 400px !important;
+
+    &__info {
+      width: 374px;
+    }
+  }
+
+  .exchange-deposit-withdrawl .site-custom-tab-bar-right .ant-tabs-nav-list .ant-tabs-tab {
+    min-width: 186px;
+  }
+
+  .exchange-deposit-withdrawl__bg {
+    display: none;
+  }
+}
+
+// Large Screen >=1200px
+@media only screen and (min-width: 75em) {
+  .fiat-deposit-overview {
+    width: calc(100% - 459px);
+  }
+}

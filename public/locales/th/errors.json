@@ -1,0 +1,1017 @@
+{
+  "register": {
+    "validation": {
+      "email": {
+        "required": "จำเป็นต้องใช้อีเมล",
+        "pattern": "ที่อยู่อีเมลที่ไม่ถูกต้อง",
+        "maxLength": "อีเมลต้องมีอักขระน้อยกว่า 200 ตัว"
+      },
+      "password": {
+        "required": "ต้องการรหัสผ่าน",
+        "pattern": "รหัสผ่านไม่ถูกต้อง",
+        "maxLength": "รหัสผ่านต้องน้อยกว่า 128 ตัวอักษร"
+      },
+      "confirmPassword": {
+        "required": "ต้องยืนยันรหัสผ่าน",
+        "pattern": "รหัสผ่านทั้งสองที่คุณป้อนไม่ตรงกัน!"
+      },
+      "mobilePhone": {
+        "required": "ต้องใช้โทรศัพท์มือถือ",
+        "pattern": "โทรศัพท์มือถือไม่ถูกต้อง"
+      },
+      "referralCode": {
+        "pattern": "รหัสอ้างอิงต้องมี 8 หลักเท่านั้น"
+      },
+      "checkBox": {
+        "required": "คุณยังไม่ได้ตกลงตามเงื่อนไข"
+      }
+    }
+  },
+  "verifyAccount" : {
+    "email": {
+      "required": "ต้องใช้รหัสยืนยันอีเมล",
+      "pattern": "รหัสยืนยันอีเมลต้องมีเพียง 6 หลักเท่านั้น"
+    },
+    "phone": {
+      "required": "ต้องใช้รหัสยืนยันหมายเลขโทรศัพท์",
+      "pattern": "รหัสยืนยันหมายเลขโทรศัพท์ต้องมีเพียง 6 หลักเท่านั้น"
+    }
+  },
+  "login": {
+    "validation": {
+      "email": {
+        "required": "จำเป็นต้องใช้อีเมล",
+        "pattern": "ที่อยู่อีเมลที่ไม่ถูกต้อง"
+      },
+      "password": {
+        "required": "ต้องการรหัสผ่าน"
+      },
+      "twoFA": {
+        "pattern": "2 FA ไม่ถูกต้อง"
+      }
+    }
+  },
+  "changePassword": {
+    "validation": {
+      "currentPassword": {
+        "required": "ต้องใช้รหัสผ่านปัจจุบัน"
+      },
+      "newPassword": {
+        "required": "ต้องใช้รหัสผ่านใหม่",
+        "pattern": "รหัสผ่านไม่ถูกต้อง"
+      },
+      "confirmNewPassword": {
+        "required": "ต้องยืนยันรหัสผ่าน",
+        "pattern": "รหัสผ่านและยืนยันรหัสผ่านไม่ตรงกัน"
+      }, 
+      "2fa": {
+        "required": "2FA เป็นสิ่งจำเป็น"
+      }
+    }
+  },
+  "trade": {
+    "systemDisabled": "ผู้ดูแลระบบปิดใช้งานฟังก์ชันการซื้อขาย",
+    "enterAmount": "กรุณาใส่จำนวน",
+    "disableCurrency": "This currency is disabled",
+    "lesserThanMax": "จำนวนต้องน้อยกว่า {{0}}",
+    "largerThanMin": "จำนวนต้องมากกว่า {{0}}",
+    "lesserThanAvailable-top-up": "เงินในบัญชีของคุณไม่พอตจ่าย. คุณต้องการฝากเงินไไหม?",
+    "lesserThanAvailable-top-up-title": "เงินในบัญชีไม่พอจ่าย",
+    "lesserThanAvailable-top-up-btn": "ฝากเงินเดียวนี้",
+
+    "noResponse": "No has response",
+    "unableToBuy": "Unable to buy this currency",
+    "unableToSell": "Unable to sell this currency"
+  },
+  "add-user-bank": {
+    "validation": {
+      "bankNumber": {
+        "required": "ต้องระบุหมายเลขธนาคาร",
+        "mustBe10digits": "เลขที่บัญชีต้องเป็นตัวเลข 10 หลัก",
+        "mustBe12digits": "เลขที่บัญชีต้องเป็นตัวเลข 12 หลัก"
+      },
+      "holderName": {
+        "required": "ต้องระบุชื่อผู้ถือ",
+        "lessThan50Characters": "ชื่อผู้ถือของคุณต้องน้อยกว่า 50 ตัวอักษร"
+      },
+      "fileUpload": {
+        "required": "เอกสารที่ต้องใช้",
+        "size": "กรุณาอัพโหลดไฟล์ของคุณ",
+        "extension": "ยอมรับเฉพาะรูปแบบต่อไปนี้: .jpeg, .jpg, .png"
+      },
+      "bankBranch": {
+        "required": "กรุณาเลือกธนาคาร"
+      },
+      "ggCode": {
+        "required": "2FA เป็นสิ่งจำเป็น",
+        "max6Digits": "2FA ไม่ถูกต้อง"
+      }
+    }
+  },
+  "form": {
+    "validation": {
+      "email": {
+        "required": "กรุณากรอกอีเมลของคุณ",
+        "pattern": "โปรดป้อนที่อยู่อีเมลที่ถูกต้อง"
+      },
+      "verifyEmail": {
+        "required": "กรุณาใส่โทรศัพท์ของคุณ",
+        "pattern": "กรุณากรอกหมายเลขโทรศัพท์ที่ถูกต้อง"
+      },
+      "newPassword": {
+        "required": "กรุณากรอกรหัสผ่านใหม่ของคุณ",
+        "pattern": "รหัสผ่านไม่ถูกต้อง"
+      },
+      "cofirmNewPassword": {
+        "required": "โปรดยืนยันรหัสผ่านใหม่ของคุณ",
+        "pattern": "ยืนยันรหัสผ่านไม่ตรงกัน"
+      },
+      "authenticationCode": {
+        "required": "กรุณากรอกรหัสยืนยันตัวตน",
+        "pattern": "รหัสตรวจสอบไม่ถูกต้อง",
+        "allowNumber": "2FA ไม่ถูกต้อง"
+      },
+      "uploadIdCard": {
+        "required": "กรุณาอัพโหลดบัตรประจำตัวประชาชนหรือหนังสือเดินทาง",
+        "mesExtensionOne": "ไฟล์ที่คุณพยายามอัปโหลด",
+        "mesExtensionTwo": "ไม่รองรับ เฉพาะไฟล์ .jpeg, .jpg, .png เท่านั้น"
+      },
+      "bankBranch": {
+        "required": "กรุณาเลือกธนาคารของคุณ"
+      },
+      "amount": {
+        "required": "ต้องระบุจำนวนเงิน",
+        "minValue": "จำนวนต้องมากกว่า ",
+        "limitWithdraw": "จำนวนเงินต้องน้อยกว่าขีดจำกัดการถอนในวันนี้",
+        "limitDepositFiat": "จำนวนเงินต้องน้อยกว่าขีดจำกัดเงินฝากในวันนี้",
+        "maxValue": "จำนวนต้องน้อยกว่า",
+        "checkErrorAmount": {
+          "largerFee": "ยอดใช้จ่ายต้องมากกว่า",
+          "largerThan": "จำนวนต้องมากกว่า",
+          "smallerThan": "จำนวนต้องน้อยกว่า",
+          "smallerAvaiable": "จำนวนเงินที่ใช้จ่ายต้องน้อยกว่า",
+          "dailyWithdrawToday": "ยอดใช้จ่ายต้องน้อยกว่า "
+        }
+      },
+      "verifyBankAccount": {
+        "required": "โปรดเลือกยืนยันบัญชีธนาคารของคุณ",
+        "minValue": "จำนวนต้องมากกว่า "
+      },
+      "address": {
+        "required": "กรุณากรอกที่อยู่"
+      },
+      "tagMemo": {
+        "required": "กรุณาป้อน tag memo ที่จำเป็น"
+      }
+    }
+  },
+  "address-book": {
+    "validation": {
+      "name": {
+        "required": "ต้องระบุชื่อย่อ"
+      },
+      "coin": {
+        "required": "ต้องใช้เหรียญ"
+      },
+      "address": {
+        "required": "ต้องระบุที่อยู่"
+      },
+      "network": {
+        "required": "จำเป็นต้องมีเครือข่าย"
+      },
+      "tagMemo": {
+        "required": "จำเป็นต้องมีบันทึก/แท็ก"
+      }
+    }
+  },
+  "change-email": {
+    "validation": {
+      "mustBe6digits": "รหัส OTP ต้องเป็น 6 หลัก",
+      "email": {
+        "required": "กรุณากรอกรหัส OTP",
+        "invalid": "ที่อยู่อีเมลที่ไม่ถูกต้อง",
+        "newEmailRequired": "จำเป็นต้องใช้อีเมลใหม่ของคุณ"
+      },
+      "ggCode": {
+        "required": "กรุณาใส่รหัสตรวจสอบ Google ของคุณ",
+        "invalidCode": "2FA ไม่ถูกต้อง"
+      }
+    }
+  },
+  "change-phone": {
+    "validation": {
+      "oldPhone": {
+        "required": "ต้องระบุรหัส OTP",
+        "max6Digits": "รหัส OTP ถูกต้อง"
+      },
+      "newPhone": {
+        "numberRequired": "จำเป็นต้องระบุหมายเลขโทรศัพท์ใหม่",
+        "invalidNumber": "โทรศัพท์มือถือถูกต้อง",
+        "required": "กต้องระบุรหัส OTP",
+        "max6Digits": "รหัส OTP ถูกต้อง"
+      },
+      "ggCode": {
+        "required": "2FA เป็นสิ่งจำเป็น",
+        "max6Digits": "2FA ถูกต้อง"
+      }
+    }
+  },
+  "field": {
+    "emergencyContactPhoneNumber": "เบอร์ติดต่อในกรณีฉุกเฉิน",
+    "phoneNumber": "เบอร์โทรศัพท์",
+    "passportNumber": "เลขพาสปอร์ต",
+    "identityNumber": "เลขบัตรประชาชน",
+    "sendUpdateUserPhoneNumber": { "phoneNumber": "เบอร์โทรศัพท์" }
+  },
+  "common": {
+    "error": {
+      "file-upload-invalid": "ไฟล์ที่อัพโหลดไม่ถูกต้อง",
+      "recaptcha-invalid": "Recaptcha ไม่ถูกต้อง"
+    }
+  },
+  "auth": {
+    "error": {
+      "authentication": {
+        "invalid": {
+          "credentials": "ชื่อบัญชีผู้ใช้งาน, รหัสผ่าน หรือ การยืนยันตัวตนแบบสองขั้นตอน (2FA) ไม่ถูกต้อง",
+          "credentials-title": "Login ไม่สำเร็จ"
+        }
+      },
+      "login": {
+        "account": {
+          "blocked": "บัญชีถูกบล็อกจากแอดมิน",
+          "blocked-title": "Login ไม่สำเร็จ",
+          "temporary": {
+            "blocked": "บัญชีของคุณถูกระงับเป็นเวลา 30 นาที",
+            "blocked-title": "Login ไม่สำเร็จ"
+          }
+        }
+      },
+      "config": {
+        "key": {
+          "notfound": "ไม่พบคีย์การกำหนดค่า"
+        }
+      }
+    },
+    "validate": {
+      "email": {
+        "required": "อีเมล์ไม่สามารถว่างได้"
+      },
+      "password ": {
+        "required": "รหัสผ่านไม่สามารถว่างได้"
+      },
+      "platform": {
+        "required": "แพลตฟอร์มไม่สามารถว่างได้",
+        "type": {
+          "invalid": "แพลตฟอร์มไม่ถูกต้อง"
+        }
+      },
+      "twofa": {
+        "code": {
+          "invalid": "รหัส 2FA ต้องมี 6 หลัก"
+        }
+      }
+    }
+  },
+  "content": {
+    "error": {
+      "blog-content-translation-not-found": "Blogs content translation not found",
+      "required": "ข้อมูลที่ต้องการ"
+    }
+  },
+  "user": {
+    "validation": {
+      "invalid": "is invalid."
+    },
+    "error": {
+      "sms-otp.notfound-title": "ตรวจสอบบัญชีของคุ",
+      "referral-code-not-found": "รหัสอ้างอิงไม่ถูกต้อง",
+      "ndid": {
+        "verification": {
+          "cancel": "คุณยกเลิกทำรายการกับ NDID กรุณาทำรายการใหม่",
+          "fail": "คุณทำรายไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+          "rejected": "ท่านได้ปฏิเสธการยืนยันตัวตนของผู้ให้บริการยืนยันตัวตนที่ท่านเลือก กรุณาทำรายการใหม่หรือเลือกผู้ให้บริการยืนยันตัวตนรายอื่น"
+        }
+      },
+      "user-not-found": "หาข้อมูลผู้ใช้ไม่เจอ",
+      "send-mail-fail": "เกิดข้อผิดพลาดระหว่างทาง",
+      "token-not-found": "รหัส OTP ไม่ถูกต้อง",
+      "token-not-found-title": "ตรวจสอบบัญชีของคุ",
+      "token-expired": "รหัส OTP หมดอายุ",
+      "send-mail-and-notify-fail": "เกิดข้อผิดพลาดระหว่างส่งอีเมล์และการแจ้งเตือน",
+      "wrong-current-password": "รหัสผ่านไม่ถูกต้อง",
+      "new-password-duplicated": "รหัสผ่านใหม่ซ้ำกับรหัสผ่านปัจจุบัน",
+      "new-password-duplicated-title": "เปลี่ยนรหัสผ่านล้มเหลว",
+      "email-already-exists": "อีเมล์นี้มีบันทึกแล้ว",
+      "email-already-exists-title": "ส่งคำขอเปลี่ยนแปลงอีเมล",
+      "having-user-active": "มีผู้ใช้ที่ใช้งานอยู่",
+      "send-sms-fail": "เกิดข้อผิดพลาดระหว่างการส่ง SMS",
+      "add-user-questionaire-fail": "เพิ่มแบบสอบถามผู้ใช้ล้มเหลว",
+      "email-otp-code-not-found": "คุณป้อนรหัสยืนยันอีเมลไม่ถูกต้อง โปรดลองอีกครั้ง",
+      "block-user": {
+        "user-unactive": "ไม่สามารถบล็อคผู้ใช้ที่ไม่ได้ใช้งาน"
+      },
+      "unblock-user": {
+        "user-not-block-status": "ไม่สามารถปลดบล็อคผู้ใช้ที่ไม่ได้อยู่ในสถานะบล็อค"
+      },
+      "user": {
+        "was-deleted": "ผู้ใช้ถูกลบ"
+      },
+      "block-unblock": {
+        "invalid-status": "สถานะไม่ถูกต้อง, โปรดยืนยันสถานะ บล็อค หรือ ใช้งาน"
+      },
+      "zendesk": {
+        "auth-exception": "รับรองความถูกต้องด้วย Zendesk server ล้มเหลว",
+        "sync-fail": "เชื่อมต่อบัญชีผู้ใช้ไปยัง Zendesk server ล้มเหลว",
+        "delete-fail": "ลบบัญชีผู้ใช้จาก Zendesk server ล้มเหลว"
+      },
+      "sms": {
+        "message": {
+          "already": {
+            "sent": "SMS OTP ได้ถูกส่งไปแล้ว.กรุณารอสักครู่"
+          }
+        }
+      },
+      "user-detail": {
+        "phone-no-empty": "หมายเลขโทรศัพท์ที่จำเป็นสำหรับการยืนยัน",
+        "phone-update-same-current": "หมายเลขโทรศัพท์ใหม่ต้องต่างจากหมายเลขโทรศัพท์ปัจจุบัน",
+        "phone-update-same-current-title": "ส่งคำขอเปลี่ยนโทรศัพท์",
+        "phone-already-taken": "หมายเลขโทรศัพท์นี้ถูกใช้งานแล้ว",
+        "phone-already-taken-title-change-phone": "ส่งคำขอเปลี่ยนโทรศัพท์",
+        "phone": {
+          "update": {
+            "fail": "เกิดข้อผิดพลาดเมื่ออัปเดตสถานะการยืนยันหมายเลขโทรศัพท์"
+          }
+        }
+      },
+      "update-phone": {
+        "send-new-phone": {
+          "fail": "เกิดข้อผิดพลาดเมื่อส่ง SMS ไปยังหมายเลขโทรศัพท์ใหม่"
+        },
+        "send-old-phone": {
+          "fail": "เกิดข้อผิดพลาดเมื่อส่ง SMS ไปยังหมายเลขโทรศัพท์เก่า"
+        },
+        "send-sms": {
+          "fail": "เกิดข้อผิดพลาดเมื่อส่ง SMS เพื่ออัปเดตหมายเลขโทรศัพท์"
+        }
+      },
+      "update-mail": {
+        "new-email": {
+          "same-current-title": "ส่งคำขอเปลี่ยนแปลงอีเมล",
+          "same-current": "อีเมลล์ใหม่ที่ถูกอัปเดตเป็นอีเมลล์ปัจจุบัน"
+        }
+      },
+      "phone-number": {
+        "not-verified": "เบอร์โทรศัพท์ของผู้ใช้ไม่สามารถยืนยัน"
+      },
+      "phone-number-update-phone": {
+        "not-found": "ไม่พบเบอร์โทรศัพท์ที่ใช้อัปเดต"
+      },
+      "ocr": {
+        "customer-identity-notfound": "ไม่พบข้อมูลประจำตัวลูกค้า",
+        "file-size": {
+          "maxlimit": "ขนาดไฟล์สูงสุดคือ 5MB."
+        }
+      },
+      "ekyc": {
+        "idrecognition": {
+          "no-required-id": "รูปภาพ ID ไม่ถูกต้อง",
+          "blur": "รูปภาพ ID ที่อัพโหลดเบลอ",
+          "no-face-detected": "ไม่พบใบหน้าจากรูปภาพที่อัพโหลด",
+          "no-real-doc": "รูปภาพ ID ที่อัพโหลดถูกตรวจพบว่าเป็นของปลอม",
+          "exposure": "รูปภาพ ID ที่อัพโหลดเปิดรับแสงมากเกินไป",
+          "unknown-error": "เกิดข้อผิดพลาดในการจดจำรูปภาพ ID",
+          "fail": "เกิดข้อผิดพลาดในการจดจำ ID"
+        },
+        "not": {
+          "complete": "กรุณาทำ EKYCให้สมบรูณ์ก่อนลงทะเบียนยืนยัน"
+        },
+        "realid": {
+          "init": {
+            "fail": "ขอเริ่มต้นไอดีจริงล้มเหลว",
+            "notfound": "ขอเริ่มต้นไอดีจริงไม่พบสำหรับ KYC"
+          },
+          "checkresult": {
+            "fail": "ขอตรวจสอบผล ID จริงล้มเหลว",
+            "face-liveness-attack": "ตรวจพบเซลฟีใบหน้าว่าเป็นของปลอม",
+            "face-verification-fail": "กระบวนการตรวจสอบใบหน้าล้มเหลว",
+            "id-verification-fail": "กระบวนการตรวจสอบ ID ทำงานล้มเหลว",
+            "pending": "สถานะการยืนยันการปลอมแปลงID อยู่ระหว่างดำเนินการ",
+            "inprocess": "สถานะการตรวจสอบการปลอมแปลงรหัสอยู่ในระหว่างดำเนินการ",
+            "cancelled": "สถานะการยืนยันการปลอมแปลง ID ถูกยกเลิก",
+            "timeout": "สถานะการตรวจสอบการปลอมแปลง ID หมดเวลา",
+            "save-data-fail": "เกิดข้อผิดพลาดเมื่อบันทึกผลการตอบสนอง EKYC",
+            "id": {
+              "no-face-detected": "ไม่พบใบหน้าจากเอกสารประจำตัวที่อัปโหลด",
+              "verification": {
+                "tamper-check-fail": "การตรวจสอบการปลอมแปลงการตรวจสอบ ID ล้มเหลว",
+                "material-check-fail": "การตรวจสอบเอกสารยืนยันตัวตนล้มเหลว",
+                "screen-recapture-check-fail": "อัพโหลดรูปภาพซ้ำจากหน้าจอ",
+                "other-spoof-check-fail": "ผลการตรวจสอบอื่นล้มเหลว",
+                "no-require-id": "การอัพโหลด ID ไม่ตรงกับประเภทเอกสารระบุตัวตน",
+                "blur": "รูปภาพเอกสารระบุตัวตนที่อัพโหลดเบลอ",
+                "no-real-doc": "ตรวจพบภาพเอกสารระบุตัวตนที่อัพโหลดว่าเป็นของปลอม",
+                "exposure": "ภาพเอกสารระบุตัวตนที่อัพโหลดเปิดรับแสงมากเกินไป",
+                "other-recognition-error": "ข้อผิดพลาดในการจดจำอื่น ๆ ทั้งหมด",
+                "risk-check-fail": "กระบวนการควบคุมความเสี่ยงล้มเหลว",
+                "velocity-high-risk": "ตรวจพบความเสี่ยงสูง",
+                "network-high-risk": "ตรวจพบความเสี่ยงในการโจมตีปลอมผ่านการตรวจสอบเครือข่ายของID"
+              }
+            }
+          }
+        }
+      },
+      "kyc": {
+        "front-img-required": "ต้องมีรูปภาพด้านหน้า",
+        "back-img-required": "ต้องมีรูปภาพด้านหลัง",
+        "selfie-img-required": "ต้องใช้ภาพเซลฟี่",
+        "passport-img-required": "ต้องมีรูปหนังสือเดินทาง",
+        "passport-number-existed": "มีเลขพาสปอร์ตนี้แล้ว",
+        "identity-number-existed": "มีเลขบัตรประชาชนนี้แล้ว",
+        "already": {
+          "submit": "การยืนยันตัวตนของคุณอยู่ในขั้นตอนการตรวจสอบ",
+          "inprocess": "การยืนยันตัวตนของคุณอยู่กำลังตรวจสอบ"
+        },
+        "not": {
+          "found": "การยืนยันตัวตนของคุณไม่พบ",
+          "accepted": "การยืนยันตัวตนของคุณต้องได้รับการยอมรับ"
+        },
+        "type": {
+          "not-manual": "กรุณาทำEKYCบนแอปพลิเคชันโทรศัพท์มือถือ",
+          "not-ekyc": "กรุณาดำเนินการด้วยตนเองให้สมบรูณ์บนเว็ปไซต์"
+        }
+      },
+      "sms-otp": {
+        "notfound": "คุณใส่เลขรหัสของหมายเลขโทรศัพท์ไม่ถูกต้อง กรุณาลองใหม่",
+        "notfound-title": "ตรวจสอบบัญชีของคุณ",
+        "expired": "SMS OTP หมดอายุ"
+      },
+      "language-code": {
+        "update": {
+          "fail": "การอัปเดตรหัสภาษาล้มเหลว"
+        }
+      },
+      "destroy": {
+        "session": {
+          "fail": "เกิดข้อผิดพลาด ล้มเหลว"
+        }
+      },
+      "login": {
+        "reach": {
+          "maxlimit-title": "Login ไม่สำเร็จ",
+          "maxlimit": "บัญชีของคุณล็อกอินเกินจำนวนที่จำกัด คุณสามารถกดตกลงเพื่อออกจากทุกระบบ"
+        }
+      },
+      "phone": {
+        "code": {
+          "invalid": "รหัสโทรศัพท์ไม่ถูกต้อง"
+        }
+      },
+      "2fa": {
+        "code-required-title": "",
+        "code-required": "",
+        "google": {
+          "not-enable-title": "การถอนล้มเหลว",
+          "not-enable": "ไม่ได้เปิดใช้งาน Google 2FA",
+          "code-invalid-title": "รหัสไม่ถูกต้อง",
+          "code-invalid": "รหัส Google 2FA ไม่ถูกต้อง",
+          "codeinvalid": "รหัส Google 2FA ไม่ถูกต้อง",
+          "codeinvalid-title": "เปิดใช้งาน Google 2-Factor (2FA) ไม่สำเร็จ",
+          "enable": {
+            "already": "เปิดใช้งาน Google 2FA แล้ว"
+          }
+        },
+        "sms": {
+          "enable": {
+            "already": "เปิดใช้งาน SMS 2FA แล้ว"
+          }
+        },
+        "reset": {
+          "request-inprocess-title": "รีเซ็ต 2FA ล้มเหลว",
+          "request-inprocess": "ส่งคำขอไม่ได้เนื่องจากการรีเซ็ต 2FA กำลังอยู่ในระหว่างดำเนินการ",
+          "request-not-found": "ไม่พบคำขอรีเซ็ต 2FA"
+        }
+      },
+      "renew": {
+        "session": {
+          "fail": "ยังไม่สามรถดำเนินการใหม่ได้"
+        }
+      },
+      "email-otp": {
+        "notfound": "ไม่พบอีเมล OTP"
+      },
+      "sms-otp-resetpassword": {
+        "notfound": "ไม่พบ SMS OTP"
+      }
+    },
+    "validate": {
+      "2fa": {
+        "code": {
+          "blank": "รหัส Google 2FA ต้องไม่เว้นว่าง"
+        }
+      },
+      "user": {
+        "id": {
+          "null": "ID ผู้ใช้ไม่สามารถเป็นค่าว่างได้"
+        }
+      },
+      "platform": {
+        "blank": "แพลตฟอร์มไม่สามารถเว้นว่างได้"
+      },
+      "session-id": {
+        "blank": "รหัสเซสชันต้องไม่เว้นว่าง"
+      },
+      "country-code": {
+        "blank": "รหัสประเทศต้องไม่เว้นว่าง"
+      },
+      "session-expiry": {
+        "null": "เวลาหมดอายุของเซสชันไม่สามารถเป็นค่าว่างได้"
+      },
+      "current": {
+        "session": {
+          "id": {
+            "blank": "รหัสเซสชันปัจจุบันไม่สามารถเว้นว่างได้"
+          }
+        }
+      },
+      "new": {
+        "session": {
+          "id": {
+            "blank": "รหัสเซสชันใหม่ไม่สามารถเว้นว่างได้"
+          }
+        }
+      },
+      "email": {
+        "null": "อีเมล์ไม่สามารถเป็นโมฆะได้",
+        "invalid": "อีเมล์ไม่ตรงกับข้อบังคับ"
+      },
+      "password": {
+        "invalid": "รหัสผ่านไม่ตรงกับข้อบังคับ"
+      },
+      "web-url": {
+        "blank": "URL ของเว็บต้องไม่เว้นว่าง"
+      },
+      "google-secret": {
+        "blank": "ข้อมูลลับของ Google ไม่สามารถเว้นว่างได้"
+      },
+      "language-code": {
+        "notfound": "ไม่พบรหัสภาษา"
+      },
+      "phone-number": {
+        "invalid": "หมายเลขโทรศัพท์ไม่ถูกต้อง"
+      },
+      "email-otp": {
+        "notfound": "ไม่พบอีเมล OTP"
+      },
+      "sms-otp-resetpassword": {
+        "notfound": "ไม่พบ SMS OTP"
+      }
+    }
+  },
+  "error": {
+    "undefined": "Unknown Error",
+    "bad-request": "คำร้องขอล้มเหลว",
+    "internal-server-error": "ระบบภายในล้มเหลว",
+    "unauthorized": "คำร้องขอหมดเวลา",
+    "not": {
+      "null": "ช่องที่ต้องกรอก"
+    },
+    "email": {
+      "invalid": "อีเมล์ไม่ตรงกับข้อบังคับ"
+    },
+    "password": {
+      "invalid": "รหัสผ่านไม่ตรงกับข้อบังคับ",
+      "length": "รหัสผ่านอยู่นอกขอบเขต"
+    }
+  },
+  "lp": {
+    "error": {
+      "trading": {
+        "failed-to-block-balance": "การสั่งซื้อล้มเหลว",
+        "order-not-matching": "คำสั่งซื้อไม่ตรงกัน",
+        "user-disabled-trading": "การซื้อขายของผู้ใช้ถูกปิดใช้งาน",
+        "minimum": "ขั้นต่ำของการซื้อขายคือ {0} บาท",
+        "maximum": "สูงสุดของการซื้อขายคือ {0} บาท",
+        "minimum-price-movement": "ราคาควรมี {0} ทศนิยมเท่านั้น",
+        "minimum-amount-movement": "จำนวนเงินควรมี {0} ทศนิยมเท่านั้น",
+        "system-disabled-trading": "ผู้ดูแลระบบปิดใช้งานฟังก์ชันการซื้อขาย"
+      }
+    }
+  },
+  "wallet": {
+    "wallet": {
+      "not-found": "กระเป๋าเงินยังไม่ได้สร้าง"
+    },
+    "withdrawal": {
+      "disabled": "การถอนถูกปิดการใช้งานสำหรับเหรียญนี้",
+      "disabled-title": "การถอนถูกปิดการใช้งาน"
+    },
+    "validation": {
+      "required": "ต้องระบุข้อมูล",
+      "positive": "ต้องเป็นตัวเลขและมากกว่าศูนย์",
+      "account-number": "หมายเลขบัญชีต้องอยู่ระหว่าง 10 - 12 หลัก",
+      "bank-has-been-disable-enable": "สถานะธนาคารก่อนหน้านี้ถูกปิดใช้งานหรือเปิดใช้งาน",
+      "currency-incorrect-type-or-disabled": "สกุลเงินนี้ไม่มีอยู่หรือถูกปิดใช้งาน",
+      "bank-id-not-found": "ไม่พบรหัสธนาคาร",
+      "user-wallets-snapshot": {
+        "dt": {
+          "invalid": "วันที่ต้องแสดงถึงช่วงเวลาที่ถูกต้องในUTC (เช่น 2007-12-03T10:15:30.00Z)"
+        }
+      },
+      "currency": {
+        "invalid": "สกุลเงินหรือโทเค็นไม่ได้รับการสนับสนุนหรือไม่ได้เรียบเรียง"
+      },
+      "withdrawal": {
+        "exists-withdrawal-is-processing-title": "การถอนของคุณล้มเหลว",
+        "exists-withdrawal-is-processing": "การถอนยังคงดำเนินการอยู่ กรุณารอจนเสร็จสิ้นก่อนที่จะส่งใหม่",
+        "tag-memo": {
+          "invalid-title": "แท็ก/บันทึก",
+          "invalid": "แท็ก/บันทึกไม่ถูกต้อง โปรดลองอีกครั้ง"
+        },
+        "tag": {
+          "xrp-invalid": "แท็ก/บันทึกไม่ถูกต้อง",
+          "xlm-invalid": "แท็ก/บันทึกไม่ถูกต้อง"
+        },
+        "address": {
+          "invalid": "ที่อยู่ไม่ถูกต้อง",
+          "user-self-wallet-title": "ที่อยู่ไม่ถูกต้อง",
+          "user-self-wallet": "ไม่สามารถโอนเข้าบัญชีตนเองได้"
+        },
+        "network": {
+          "invalid": "เครือข่ายไม่ถูกต้อง"
+        },
+        "amount": {
+          "balance-insufficient": "เงินในบัญชีไม่เพียงพอ",
+          "dust": "จำนวนถอนเศษ",
+          "min": "ขั้นต่ำการถอนควรมากกว่าศูนย์",
+          "max": "จำนวนถอนมากเกินไป",
+          "reached-limit-in-day": "คุณได้ถึงจุดสูงสุดในการถอนเงินต่อวันแล้ว กรุณาลองใหม่ใน24ชั่วโมง"
+        },
+        "transaction": {
+          "reached-per-hour-title": "ถอน",
+          "reached-per-hour": "คุณได้ถึงจุดสูงสุดในการทำธุรกรรมต่อชั่วโมงแล้ว กรุณาลองใหม่ใน1ชั่วโมง. "
+        }
+      },
+      "deposit": {
+        "disabled": "ไม่สามารถฝากเหรียญได้ กรุณาตรวจสอบ Network และลองอีกครั้ง",
+        "amount": {
+          "reached-limit-in-day-title": "การฝากล้มเหลว",
+          "reached-limit-in-day": "คุณได้ถึงจุดสูงสุดในการถอนเงินต่อวันแล้ว กรุณาลองใหม่ใน24ชั่วโมง"
+        }
+      },
+      "error": {
+        "not": {
+          "null": "ไม่สามารถเว้นว่างได้"
+        }
+      }
+    },
+    "error": {
+      "bank-not-found": "ไม่พบธนาคาร",
+      "account-number-invalid-title": "ข้อผิดพลาด",
+      "account-number-invalid": "เลขที่บัญชีของคุณไม่ถูกต้อง",
+      "account-number-already-exists": "เลขที่บัญชีของคุณถูกใช้แล้ว",
+      "account-number-already-exists-title": "ข้อผิดพลาด", 
+      "user-bank-reach-limit": "คุณได้มีจำนวนบัญชีถึงขั้นสูงสุดแล้ว",
+      "duplicate-user-address-book": "ที่อยู่ที่บันทึกไว้ของคุณมีอยู่แล้ว",
+      "duplicate-user-address-book-title": "บันทึกที่อยู่ล้มเหลว"
+    }
+  },
+  "fiat": {
+    "validation": {
+      "withdrawal": {
+        "amount": {
+          "reached-limit-in-day": "คุณได้ถึงจุดสูงสุดในการถอนเงินต่อวันแล้ว กรุณาลองใหม่ใน24ชั่วโมง"
+        },
+        "transaction": {
+          "reached-per-hour": "คุณได้ถึงจุดสูงสุดในการทำธุรกรรมต่อชั่วโมงแล้ว กรุณาลองใหม่ใน1ชั่วโมง. "
+        }
+      }
+    },
+    "setting": {
+      "currency-incorrect-type-or-disabled": "สกุลเงินไม่ถูกต้อง กรุณาลองใหม่",
+      "deposit": {
+        "disabled-title": "การฝากถูกปิดใช้งาน",
+        "disabled": "ระงับการฝากเงิน กรุณาลองใหม่อีกครั้ง",
+        "minimum-deposit": "คุณต้องฝากมากกว่าจำนวนขั้นต่ำ"
+      },
+      "withdraw": {
+        "disabled-title": "การถอนถูกปิดใช้งาน",
+        "disabled": "ระงับการถอน กรุณาลองใหม่",
+        "minimum-withdraw": "คุณต้องถอนมากกว่าจำนวนขั้นต่ำ",
+        "maximum-withdraw": "คุณต้องถอนน้อยกว่าจำนวนจำนวนสูงสุด"
+      },
+      "invalid": {
+        "exchange-active-accounts": "บัญชีธนาคารยังไม่เปิดใช้งาน กรุณาติดต่อเรา"
+      }
+    },
+    "withdraw": {
+      "invalid": {
+        "bank-id": "บัญชีธนาคารของคุณไม่ถูกต้อง กรุณาติดต่อเรา เพื่อทราบข้อมูลเพิ่มเติม"
+      },
+      "exists-withdraw-is-processing-title": "เราไม่สามารถดำเนินการได้",
+      "exists-withdraw-is-processing": "การถอนเงินของคุณอยู่ระหว่างดำเนินการ คุณไม่สามารถสร้างการถอนได้อีกในขณะนี้ กรุณารอจนกว่าจะสำเร็จ"
+    },
+    "deposit": {
+      "exists-deposit-is-processing": "Your deposit is processing. You can't create new deposit until it done."
+    }
+  },
+  "alertSuccess": {
+    "resetPassword": {
+      "message": "รีเซ็ตรหัสผ่านสำเร็จ กรุณาเข้าสู่ระบบเพื่อเริ่มต้น"
+    }
+  },
+  "verify-kyc": {
+    "non-thai": {
+      "identity-form": {
+        "validation": {
+          "passport": {
+            "required": "ต้องอัปโหลดหนังสือเดินทาง"
+          },
+          "selfie": {
+            "required": "จำเป็นต้องอัปโหลดภาพเซลฟี่"
+          }
+        }
+      },
+      "personal-form": {
+        "validation": {
+          "passport": {
+            "required": "ต้องใช้หนังสือเดินทาง"
+          },
+          "first-name": {
+            "required": "ต้องระบุชื่อ"
+          },
+          "last-name": {
+            "required": "ต้องระบุนามสกุล"
+          },
+          "title-name": {
+            "required": "ต้องระบุชื่อ"
+          },
+          "nationality": {
+            "required": "ต้องมีสัญชาติ"
+          },
+          "gender": {
+            "required": "ต้องระบุเพศ"
+          },
+          "dob": {
+            "required": "ต้องระบุวันเดือนปีเกิด",
+            "mustBe18": "ขออภัย คุณต้องมีอายุ 18 ปีจึงจะสามารถซื้อขายกับ Maxbit . ได้"
+          }
+        }
+      },
+      "residential-form": {
+        "validation": {
+          "address": {
+            "required": "ต้องระบุที่อยู่"
+          },
+          "district": {
+            "required": "อำเภอเป็นสิ่งจำเป็น"
+          },
+          "state": {
+            "required": "จำเป็นต้องระบุสถานะ"
+          },
+          "postalCode": {
+            "required": "รหัสไปรษณีย์ เป็นสิ่งจำเป็น"
+          },
+          "province": {
+            "required": "จังหวัด เป็นสิ่งจำเป็น"
+          }
+        }
+      },
+      "occupation-form": {
+        "validation": {
+          "occupation": {
+            "required": "อาชีพที่จำเป็น"
+          },
+          "position": {
+            "required": "ต้องการตำแหน่ง"
+          },
+          "company": {
+            "required": "ต้องระบุชื่อบริษัท"
+          },
+          "country": {
+            "required": "ต้องระบุประเทศ"
+          },
+          "address": {
+            "required": "ต้องระบุที่อยู่"
+          },
+          "province": {
+            "required": "จังหวัด เป็นสิ่งจำเป็น"
+          },
+          "district": {
+            "required": "อำเภอเป็นสิ่งจำเป็น"
+          },
+          "postalCode": {
+            "required": "รหัสไปรษณีย์ เป็นสิ่งจำเป็น"
+          },
+          "first-name": {
+            "required": "ต้องระบุชื่อ"
+          },
+          "last-name": {
+            "required": "ต้องระบุนามสกุล"
+          },
+          "phone-number": {
+            "required": "ต้องระบุหมายเลขโทรศัพท์"
+          }
+        }
+      },
+      "license-form": {
+        "validation": {
+          "license-type": {
+            "required": "ต้องระบุประเภท ID ที่คุณสามารถอัปโหลดได้"
+          },
+          "file": {
+            "required": "เอกสารที่ต้องใช้"
+          }
+        }
+      },
+      "questionnaire-form": {
+        "validation": {
+          "required": "คุณต้องเลือกคำตอบ"
+        }
+      }
+    },
+    "thai": {
+      "identity-form": {
+        "validation": {
+          "identityNumber": {
+            "required": "ต้องระบุหมายเลขประจำตัว",
+            "max": "อินพุตเกินขีดจำกัด 13 อักขระ",
+            "onlyNumber": "หมายเลขประจำตัวอนุญาตเฉพาะตัวเลข"
+          },
+          "passport": {
+            "required": "ต้องอัปโหลดหนังสือเดินทาง"
+          },
+          "selfie": {
+            "required": "จำเป็นต้องอัปโหลดภาพเซลฟี่"
+          }
+        }
+      },
+      "personal-form": {
+        "validation": {
+          "passport": {
+            "required": "ต้องใช้หนังสือเดินทาง"
+          },
+          "first-name": {
+            "required": "ต้องระบุชื่อ"
+          },
+          "last-name": {
+            "required": "ต้องระบุนามสกุล"
+          },
+          "title-name": {
+            "required": "ต้องระบุชื่อ"
+          },
+          "nationality": {
+            "required": "ต้องมีสัญชาติ"
+          },
+          "gender": {
+            "required": "ต้องระบุเพศ"
+          },
+          "dob": {
+            "required": "ต้องระบุวันเดือนปีเกิด",
+            "mustBe18": "ขออภัย คุณต้องมีอายุ 18 ปีจึงจะสามารถซื้อขายกับ Maxbit . ได้"
+          }
+        }
+      },
+      "residential-form": {
+        "validation": {
+          "address": {
+            "required": "ต้องระบุที่อยู่"
+          },
+          "district": {
+            "required": "อำเภอเป็นสิ่งจำเป็น"
+          },
+          "state": {
+            "required": "จำเป็นต้องระบุสถานะ"
+          },
+          "postalCode": {
+            "required": "รหัสไปรษณีย์ เป็นสิ่งจำเป็น"
+          },
+          "province": {
+            "required": "จังหวัด เป็นสิ่งจำเป็น"
+          }
+        }
+      },
+      "occupation-form": {
+        "validation": {
+          "occupation": {
+            "required": "อาชีพที่จำเป็น"
+          },
+          "position": {
+            "required": "ต้องการตำแหน่ง"
+          },
+          "company": {
+            "required": "ต้องระบุชื่อบริษัท"
+          },
+          "country": {
+            "required": "ต้องระบุประเทศ"
+          },
+          "address": {
+            "required": "ต้องระบุที่อยู่"
+          },
+          "province": {
+            "required": "จังหวัด เป็นสิ่งจำเป็น"
+          },
+          "district": {
+            "required": "อำเภอเป็นสิ่งจำเป็น"
+          },
+          "postalCode": {
+            "required": "รหัสไปรษณีย์ เป็นสิ่งจำเป็น"
+          },
+          "first-name": {
+            "required": "ต้องระบุชื่อ"
+          },
+          "last-name": {
+            "required": "ต้องระบุนามสกุล"
+          },
+          "phone-number": {
+            "required": "ต้องระบุหมายเลขโทรศัพท์"
+          }
+        }
+      },
+      "license-form": {
+        "validation": {
+          "license-type": {
+            "required": "ต้องระบุประเภท ID ที่คุณสามารถอัปโหลดได้"
+          },
+          "file": {
+            "required": "เอกสารที่ต้องใช้"
+          }
+        }
+      },
+      "questionnaire-form": {
+        "validation": {
+          "required": "คุณต้องเลือกคำตอบ"
+        }
+      }
+    }
+  },
+  "reset-gg-authen": {
+    "title-failed": "รีเซ็ต 2FA ล้มเหลว",
+    "reset-succes": "รีเซ็ต 2FA สำเร็จ",
+    "validation": {
+      "email": {
+        "required": "ต้องระบุอีเมล",
+        "pattern": "ที่อยู่อีเมลไม่ถูกต้อง"
+      },
+      "verifyEmail": {
+        "required": "ต้องระบุ OTP"
+      },
+      "uploadIdCard": {
+        "required": "กรุณาอัพโหลดบัตรประจำตัวประชาชนหรือหนังสือเดินทาง",
+        "mesExtensionOne": "ไฟล์ที่คุณพยายามอัปโหลด",
+        "mesExtensionTwo": "ไม่รองรับ เฉพาะไฟล์ .jpeg, .jpg, .png เท่านั้น"
+      }
+    }
+  },
+  "reset-password": {
+    "validation": {
+      "newPassword": {
+        "required": "ต้องใส่รหัสผ่านใหม่",
+        "pattern": "ความยาวของรหัสผ่านต้องมากกว่า 10"
+      },
+      "cofirmNewPassword": {
+        "required": "ต้องยืนยันรหัสผ่าน",
+        "pattern": "รหัสผ่านยืนยันว่าไม่ตรงกัน"
+      }
+      
+    }
+  },
+  "input": {
+    "validation": {
+      "authenticationCode": {
+        "required": "ต้องระบุรหัสยืนยัน",
+        "pattern": "รหัสยืนยันไม่ถูกต้อง"
+      },
+      "2fa":{
+        "required": "จำเป็นต้องใช้ 2FA",
+        "allowNumber": "2FA ไม่ถูกต้อง"
+      },
+      "bankBranch": {
+        "required": "ต้องระบุสาขาของธนาคาร"
+      },
+      "amount": {
+        "required": "ต้องระบุจำนวน",
+        "minValue": "จำนวนต้องมากกว่า ",
+        "limitWithdraw": "จำนวนเงินต้องน้อยกว่าขีดจำกัดการถอนในวันนี้",
+        "limitDepositFiat": "จำนวนเงินต้องน้อยกว่าขีดจำกัดเงินฝากในวันนี้",
+        "maxValue": "จำนวนต้องน้อยกว่า",
+        "checkErrorAmount": {
+          "largerFee": "ยอดใช้จ่ายต้องมากกว่า",
+          "largerThan": "จำนวนต้องมากกว่า",
+          "smallerThan": "จำนวนต้องน้อยกว่า",
+          "smallerAvaiable": "จำนวนเงินที่ใช้จ่ายต้องน้อยกว่า",
+          "dailyWithdrawToday": "ยอดใช้จ่ายต้องน้อยกว่า "
+        }
+      },
+      "verifyBankAccount": {
+        "required": "ต้องระบุบัญชีธนาคาร"
+      },
+      "address": {
+        "required": "ต้องระบุที่อยู่"
+      },
+      "tagMemo": {
+        "required": "จำเป็นต้องมีแท็ก/บันทึก"
+      }
+    }
+  }
+}

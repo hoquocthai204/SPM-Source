@@ -1,0 +1,168 @@
+.landing__header {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+
+  .logo {
+    img {
+      height: 40px;
+      position: relative;
+      bottom: 3px;
+    }
+  }
+
+  .menu__wrapper {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .menu {
+      display: flex;
+      gap: 20px;
+      font-weight: 600;
+      .ant-select-selection-item {
+        color: #fff;
+      }
+      a {
+        color: inherit;
+
+        &.menu__register {
+          background-color: #fff;
+          height: 34px;
+          align-self: center;
+          line-height: normal;
+          display: flex;
+          align-items: center;
+          padding: 9px 13px;
+          border-radius: 6px;
+          color: #08a19c;
+        }
+      }
+
+      span {
+        font-weight: inherit;
+      }
+
+      .ant-select-selector {
+        padding: 0;
+      }
+
+      .ant-select-arrow {
+        color: black;
+        font-weight: 600;
+        right: 5px;
+      }
+    }
+
+    .collapse-btn {
+      display: none;
+      align-items: center;
+    }
+  }
+}
+
+.landing-header__side-menu {
+  overflow-y: scroll;
+
+  .ant-drawer-body {
+    padding: 0;
+
+    .landing-header__side-nav-box {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .landing-header__side-btn {
+        margin: 0 24px;
+        font-size: 14px;
+        font-weight: 500;
+        display: block;
+
+        &:first-child {
+          color: black;
+        }
+      }
+
+      a {
+        padding: 10px 24px;
+        font-size: 14px;
+        font-weight: 500;
+
+        &:hover {
+          background-color: rgb(245, 245, 245);
+        }
+      }
+    }
+
+    .landing-header__side-language-box {
+      display: flex;
+      margin-top: 15px;
+      gap: 40px;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 24px;
+
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.download-app__wrapper {
+  max-width: 145px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 12px;
+
+  .display-text {
+    text-align: center;
+  }
+
+  .qr-code {
+    width: 100%;
+    text-align: center;
+    img {
+      width: 145px;
+      height: 145px;
+    }
+  }
+}
+
+// --------- RESPONSIVE ---------
+
+/* Mobile*/
+@media only screen and (max-width: 46.1875em) {
+  .landing__header .menu__wrapper {
+    justify-content: end;
+
+    .menu {
+      display: none;
+    }
+
+    .collapse-btn {
+      display: flex;
+    }
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .landing__header .menu__wrapper {
+    justify-content: end;
+
+    .menu {
+      display: none;
+    }
+
+    .collapse-btn {
+      display: flex;
+    }
+  }
+}
+
+/* PC */
+@media only screen and (min-width: 64em) {
+}

@@ -1,0 +1,109 @@
+.manage-address-book {
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: $product-body-padding;
+
+  &__head {
+    margin-bottom: 43.91px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__add-new {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      cursor: pointer;
+
+      height: 30px;
+      width: 204px;
+
+      border: 1px solid #ccc;
+      border-radius: 6px;
+
+      &>span {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+      }
+    }
+  }
+
+  &__table {
+    border: 1px solid #e1e3e7;
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    .ant-divider.ant-divider-horizontal {
+      display: none;
+    }
+
+    .ant-table-thead>tr>th {
+      color: #808080;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      height: 40px !important;
+
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .ant-table-thead>tr>th:last-child {
+      font-weight: 600;
+      color: #b01212 !important;
+      text-align: right;
+    }
+
+    .ant-table-tbody>tr>td:last-child {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+
+      color: #b01212 !important;
+      text-align: right;
+
+      cursor: pointer;
+    }
+  }
+}
+
+.add-address-book {
+  font-family: 'Poppins';
+  font-style: normal;
+
+  width: 100%;
+  padding: $product-body-padding;
+
+  &__head {
+    margin-bottom: 44px;
+  }
+
+  &__form {
+    width: 390px;
+
+    margin: 0 auto;
+
+    &__title {
+      text-align: center;
+
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 30px;
+
+      margin-bottom: 40px;
+    }
+
+    .addAddressBook_form {
+      .ant-form-item-label {
+        &>label {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.verification-code__field {
+  input {
+    border-right: none;
+  }
+  .ant-input-group-addon {
+    min-width: 80px;
+    background-color: inherit;
+    font-weight: 500;
+  }
+  .send-code {
+    font-weight: 500;
+    color: rgb(24, 144, 255);
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .send-code--disabled {
+    &:hover {
+      cursor: not-allowed;
+    }
+  }
+}

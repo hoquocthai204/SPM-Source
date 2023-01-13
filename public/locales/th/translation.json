@@ -1,0 +1,628 @@
+{
+  "404": "ขออภัย หน้าที่คุณเยี่ยมชมไม่มีอยู่",
+  "backHome": "กลับบ้าน",
+  "title": {
+    "loginPage": "เข้าสู่ระบบ | Maxbit"
+  },
+  "common": {
+    "sendCode": "ส่งรหัส",
+    "uploadFileText": "คลิกหรือลากไฟล์มาที่บริเวณนี้เพื่ออัปโหลด",
+    "trade": "ซื้อขาย",
+    "verifyKYC": "ตรวจสอบ KYC",
+    "showAll": "แสดง {{start}} ถึง {{end}} จาก {{total}} ผลลัพธ์",
+    "addBankAccount": "เพิ่มบัญชีธนาคาร"
+  },
+  "header": {
+    "market": "ตลาด",
+    "trade": "ซื้อขาย",
+    "wallet": "กระเป๋าสตางค์",
+    "news": "ข่าว",
+    "blog": "บล็อก",
+    "login": "เข้าสู่ระบบ",
+    "register": "ลงทะเบียน",
+    "download": "ดาวน์โหลด",
+    "downloadDisplayText": "สแกนเพื่อดาวน์โหลดแอป IOS และ Android",
+    "language": "ภาษา",
+    "history": "ประวัติศาสตร์",
+    "notification": "การแจ้งเตือน",
+    "setting": "การตั้งค่า",
+    "collapse": "ทรุด",
+    "logout": "ออกจากระบบ",
+    "order": "คำสั่ง",
+    "transaction": "ธุรกรรม"
+  },
+  "footer": {
+    "aboutUs": "เกี่ยวกับเรา",
+    "termsConditions": "ข้อตกลงและเงื่อนไข",
+    "coinInfos-listingRules": "ข้อมูลเหรียญและกฎการลงรายการ",
+    "buy/sellRules": "กฎการซื้อและขาย",
+    "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+    "aml/ctpfPolicy": "นโยบาย AML/CTPF",
+    "news": "ข่าว",
+    "chat": "แชทกับฝ่ายสนับสนุน",
+    "help": "ช่วยเหลือ ( คำถามที่พบบ่อย & ตั๋ว )",
+    "content1": "จดหมายข่าวความยาว 3 นาทีพร้อมข้อมูลใหม่เกี่ยวกับข่าวการเงินที่คุณต้องการเพื่อเริ่มต้นวันใหม่",
+    "content2": "© 2022 แม็กซ์บิต สงวนลิขสิทธิ์. \nMaxbit หมายถึง Maxbit Markets และประสบการณ์ในการใช้งานและเว็บของบริษัทในเครือซึ่งเป็นเจ้าของทั้งหมด ซึ่งรวมถึง Maxbit Financial, Maxbit Securities และ Maxbit Crypto \nการลงทุนทั้งหมดมีความเสี่ยง รวมถึงการสูญเสียเงินทุนที่อาจเกิดขึ้น \nMaxbit Financial ให้บริการซื้อขายหลักทรัพย์แก่ลูกค้าที่กำกับตนเอง Maxbit Financial เป็นสมาชิกของหน่วยงานกำกับดูแลอุตสาหกรรมการเงิน (FINRA)"
+  },
+  "landing": {
+    "bannerTitle": "ยุคใหม่ของการลงทุน \nCrypto",
+    "bannerSubtitle": "อัตราที่ดีที่สุด รวดเร็ว และปลอดภัย การแลกเปลี่ยนที่เป็นมิตรกับผู้ใช้สำหรับคนไทย",
+    "getStarted": "เริ่ม",
+    "topMovers": "อันดับสูงสุด",
+    "seeAllCoins": "ดูทั้งหมด เหรียญ",
+    "seeAllBlogs": "ดูบล็อกทั้งหมด",
+    "marketComparison": "การเปรียบเทียบตลาด",
+    "no": "ไม่",
+    "name": "ชื่อ",
+    "competition": "การแข่งขัน",
+    "gaps": "ช่องว่าง",
+    "action": "หนังบู๊",
+    "buy": "ซื้อ",
+    "sell": "ขาย",
+    "seeAllNews": "ดูข่าวทั้งหมด",
+    "stepHeader": "วิธีการเริ่มต้น",
+    "stepsDetail": "วิธีที่ง่ายและสะดวกในการเริ่มต้นการลงทุนในสกุลเงินดิจิตอล",
+    "stepTitle": "สร้างบัญชีของคุณ",
+    "stepSubtitle": "บัญชีและข้อมูลส่วนตัวของคุณได้รับการประกันว่าปลอดภัย",
+    "stepTitle2": "ยืนยัน KYC . ของคุณ",
+    "stepSubtitle2": "การยืนยัน KYC จะเป็นประโยชน์ต่อการรักษาความปลอดภัยของบัญชี การถอนเงิน และสิทธิพิเศษในการซื้อขาย",
+    "stepTitle3": "เชื่อมต่อบัญชีธนาคาร",
+    "stepSubtitle3": "เชื่อมต่อบัญชีธนาคารเพื่อเริ่มการทำธุรกรรม",
+    "stepTitle4": "เริ่มสร้างผลงาน",
+    "stepSubtitle4": "ซื้อและขายสกุลเงินยอดนิยมและติดตามพวกเขา",
+    "blogHeader": "เรียนรู้เกี่ยวกับ Cryptocurrency",
+    "blogDetail": "เรียนรู้ทั้งหมดเกี่ยวกับสกุลเงินดิจิทัลเพื่อเริ่มลงทุน"
+  },
+  "news": {
+    "updated": "อัปเดต",
+    "sideTitle": "บล็อกที่เกี่ยวข้อง",
+    "news": "ข่าว",
+    "showMore": "แสดงมากขึ้น"
+  },
+  "login": {
+    "title": "เข้าสู่ระบบ Maxbit",
+    "form": {
+      "email": "อีเมล",
+      "emailPlaceholder": "ใส่อีเมล์",
+      "password": "รหัสผ่าน",
+      "passwordPlaceholder": "ใส่รหัสผ่าน",
+      "authCode": "รหัสการตรวจสอบ (ไม่บังคับ)",
+      "authCodePlaceholder": "ป้อนรหัส 6 หลักจาก Google Authentication",
+      "loginBtn": "เข้าสู่ระบบ",
+      "forgotPassword": "ลืมรหัสผ่าน?",
+      "resetAuthCode": "รีเซ็ต Google Authenticator ของฉัน",
+      "register": "ฉันยังไม่มีบัญชี"
+    },
+    "validation": {
+      "email": {
+        "required": "กรุณากรอกอีเมล์ของคุณ",
+        "pattern": "โปรดป้อนที่อยู่อีเมลที่ถูกต้อง"
+      },
+      "password": {
+        "required": "กรุณาใส่รหัสผ่านของคุณ"
+      }
+    }
+  },
+  "setUp2FA": {
+    "title1": "ติดตั้ง",
+    "title2": "Google Authenticator",
+    "installApp": "ติดตั้ง Google Authentication ลงในโทรศัพท์ของคุณหากยังไม่มี",
+    "security": "ความปลอดภัย",
+    "popUpSuccess": "ตั้งค่า Google Authenticator สำเร็จ คลิกตกลงเพื่อเข้าสู่ระบบใหม่!!!",
+    "popUpInfo": "คุณตั้งค่า Google Authenticator แล้ว คลิกตกลงเพื่อเปลี่ยนเส้นทางหน้าการตั้งค่า",
+    "form": {
+      "authCode": "Authentication Code",
+      "authCodePlaceholder": "ป้อนรหัส 6 หลักจาก Google Authentication",
+      "btnNext": "ถัดไป",
+      "btnBack": "กลับ",
+      "btnConfirm": "ยืนยัน",
+      "notiInfo": "สแกนรหัส QR ด้วย Google Authenticator หรือใส่รหัสในแอพ Google Authenticator"
+    },
+    "validation": {
+      "2FA": {
+        "required": "โปรดป้อนรหัสของคุณจาก Google Authentication",
+        "pattern": "2FA ไม่ถูกต้อง"
+      }
+    }
+  },
+  "manage-bank": {
+    "title": "จัดการบัญชีธนาคาร",
+    "bankName": "ชื่อธนาคาร",
+    "bankNumber": "เลขที่ธนาคาร",
+    "status": "สถานะ",
+    "action": "หนังบู๊",
+    "addNewBank": "เพิ่มธนาคารใหม่",
+    "popUpInfoAccessBank": "บัญชีของคุณต้องได้รับการยืนยันเพื่อเข้าถึงหน้านี้"
+  },
+  "setting": {
+    "setting": "การตั้งค่า",
+    "mainPage": {
+      "userID": "ID ผู้ใช้",
+      "lastTimeLogin": "เข้าสู่ระบบครั้งล่าสุด",
+      "showSessionHistory": "แสดงประวัติเซสชัน",
+      "copy": "สำเนา",
+      "title": "การยืนยัน KYC",
+      "detail": "ตรวจสอบแล้ว",
+      "detail01": "ยืนยันเลย",
+      "groupHeader1": "การตั้งค่าบัญชี",
+      "title11": "อีเมล",
+      "detail11": "เปลี่ยนอีเมล",
+      "title12": "โทรศัพท์",
+      "detail12": "เปลี่ยนเบอร์โทร",
+      "groupHeader2": "ตั้งค่าความปลอดภัย",
+      "title21": "รหัสผ่าน",
+      "detail21": "เปลี่ยนรหัสผ่าน",
+      "title22": "Google Authenticator",
+      "detail22": "ตั้งค่า Google Authenticator",
+      "groupHeader3": "ธนาคาร",
+      "title31": "บัญชีธนาคาร",
+      "detail31": "จัดการบัญชีธนาคาร",
+      "groupHeader4": "ผู้อ้างอิง",
+      "title41": "รหัสอ้างอิง",
+      "title42": "URL อ้างอิง",
+      "title43": "ประวัติผู้อ้างอิง",
+      "detail43": "จัดการประวัติการอ้างอิง",
+      "groupHeader5": "การตั้งค่าการแจ้งเตือน",
+      "title51": "ภาษาการแจ้งเตือน"
+    }
+  },
+  "referralHistory": {
+    "header": "ประวัติผู้อ้างอิง",
+    "totalEarnings": "รายได้ทั้งหมด",
+    "email": "อีเมล",
+    "earnings": "รายได้"
+  },
+  "add-user-bank": {
+    "title": "เพิ่มบัญชีธนาคาร",
+    "form": {
+      "infoBanner": "คุณต้องเป็นเจ้าของบัญชีธนาคาร",
+      "bankBranchPlh": "กรุณาเลือกธนาคาร",
+      "bankNumber": "เลขที่ธนาคาร",
+      "bankNumberplh": "ใส่หมายเลขธนาคาร",
+      "holderName": "ชื่อผู้ถือ",
+      "holderNamePlh": "ใส่ชื่อผู้ถือ",
+      "uploadBookbank": "อัพโหลด Bookbank",
+      "uploadPlh": "คลิกหรือลากไฟล์มาที่บริเวณนี้เพื่ออัปโหลด",
+      "bankBranch": "สาขาธนาคาร",
+      "btnSubmit": "ส่ง",
+      "selectBank": "เลือกธนาคาร",
+      "ggCodeLabel": "ป้อนรหัสรับรองความถูกต้องของ Google (2FA)",
+      "ggCodePlh": "รหัส Google Authentication 6 หลัก" 
+    }
+  },
+  "resetGoogleAuthenticator": {
+    "titleFirst": "รีเซ็ต",
+    "titleSecond": "Google Authenticator",
+    "liFirst": "โปรดอัปโหลดรูปถ่ายประจำตัวที่มีใบหน้าของคุณชัดเจนและรายละเอียดของบัตรประจำตัวประชาชน/หนังสือเดินทางที่มองเห็นได้ชัดเจน",
+    "liSecond": "คุณต้องเป็นเจ้าของบัตรประจำตัวประชาชน / หนังสือเดินทาง",
+    "infoGoogleAuthenication": {
+      "paraphraseOne": "การรักษาความปลอดภัยที่แข็งแกร่งด้วย",
+      "paraphraseTwo": "Google Authenticator",
+      "rule": "หากคุณเคยบันทึกคีย์การกู้คืน 16 หลักสำหรับ Google Authenticator ในครั้งแรกเมื่อตั้งค่าบนโทรศัพท์ของคุณ คุณสามารถใช้คีย์การกู้คืนนี้เพื่อกู้คืนแอป Google Authenticator ของคุณได้อย่างรวดเร็ว โดยไม่ต้องรีเซ็ต Google Authenticator ด้วยตนเอง ."
+    },
+    "ruleCheckBoxOne": "การรีเซ็ตการตั้งค่า Google Authenticator ของคุณจะปิดการป้องกัน 2FA ของคุณ คุณต้องตั้งค่าใหม่อีกครั้ง",
+    "ruleCheckBoxTwo": "การรีเซ็ต Google Authenticator ของคุณอาจใช้เวลา 24 - 48 ชั่วโมง",
+    "labelUpload": "อัปโหลดบัตรประจำตัวประชาชน / หนังสือเดินทาง"
+  },
+  "form": {
+    "label": {
+      "email": "อีเมล",
+      "emailVerify": "รหัสการตรวจสอบอีเมล",
+      "newEmail": "อีเมลใหม่",
+      "newEmailVerify": "รหัสยืนยันอีเมลใหม่",
+      "oldEmail": "อีเมลเก่า",
+      "oldEmailVerify": "รหัสยืนยันอีเมลเก่า",
+      "authenCode": "รหัสรับรองความถูกต้อง",
+      "newPhone": "หมายเลขโทรศัพท์ใหม่",
+      "phoneNumberVerify": "รหัสยืนยันหมายเลขโทรศัพท์",
+      "newPassword": "รหัสผ่านใหม่",
+      "phone": "หมายเลขโทรศัพท์",
+      "confirmNewPassword": "ยืนยันรหัสผ่านใหม่",
+      "netWork": "เครือข่าย",
+      "address": "ที่อยู่",
+      "tagMemo": " แท็ก/บันทึก",
+      "bankBranch": "สาขาธนาคาร",
+      "amount": "จำนวนเงิน",
+      "authenticationCode": "รหัสตรวจสอบสิทธิ์",
+      "verifyBankAccount": "บัญชีธนาคารที่ยืนยันแล้วของคุณ",
+      "hideSmallAmount": "ซ่อนจำนวนเล็กน้อย",
+      "emailAuthenCode": "รหัสยืนยันอีเมล",
+      "phoneAuthenCode": "รหัสยืนยันตัวตนของโทรศัพท์"
+    },
+    "placeholder": {
+      "email": "ป้อนอีเมล",
+      "emailVerify": "กรุณากรอกรหัสยืนยันอีเมล",
+      "newEmail": "ป้อนอีเมลใหม่",
+      "authenCode": "ป้อนรหัส 6 หลักจาก Google Authenticator",
+      "phoneNumberVerify": "โปรดป้อนรหัสตรวจสอบสิทธิ์ SMS",
+      "phone": "มือถือ",
+      "newPassword": "ป้อนรหัสผ่านใหม่ของคุณ",
+      "confirmNewPassword": "ป้อนรหัสผ่านใหม่ของคุณอีกครั้ง",
+      "netWork": "เลือกเครือข่าย",
+      "bankBranch": "เลือกสาขาของธนาคาร",
+      "amount": "ป้อนจำนวนเงิน",
+      "authenticationCode": "ป้อนรหัส 6 หลักจาก Google Authenticator",
+      "address": "ป้อนที่อยู่",
+      "verifyBankAccount": "เลือกธนาคารของคุณ",
+      "tagMemo": "ป้อนแท็ก/บันทึก",
+      "searchCoin": "ค้นหาเหรียญ...",
+      "emailAuthenCode": "ป้อนรหัสยืนยันอีเมล",
+      "phoneAuthenCode": "ป้อนรหัสยืนยันตัวตนทาง SMS"
+    },
+    "nameButton": {
+      "next": "ถัดไป",
+      "submit": "ส่ง",
+      "withdraw": "ถอน",
+      "close": "ปิด",
+      "deposit": "ฝาก",
+      "trade": "การค้า",
+      "saveNewAddress": "บันทึกที่อยู่ใหม่"
+    },
+    "messEnterDigitCode": "ใส่รหัส 6 หลัก ส่งไปที่"
+  },
+  "changeEmail": {
+    "title": "เปลี่ยนอีเมล",
+    "successModal": "เปลี่ยนอีเมลสำเร็จ!!! คลิกตกลงเพื่อเปลี่ยนเส้นทางหน้าเข้าสู่ระบบ",
+    "sendTo": "OTP จะส่งไปที่",
+    "btnGoback": "ย้อนกลับ",
+    "form": {
+      "newEmail": "อีเมลใหม่ของคุณ",
+      "emailPlh": "ที่อยู่อีเมล",
+      "enterYourCode": "ใส่รหัสของคุณ",
+      "ggCode": "รหัสตรวจสอบสิทธิ์ Google",
+      "enterGGCode": "ป้อนรหัสรับรองความถูกต้องของ Google (2FA)"
+    }
+  },
+  "changePhone": {
+    "title": "เปลี่ยนโทรศัพท์"
+  },
+  "btnGoBack": {
+    "account": "บัญชี"
+  },
+  "transaction-history": {
+    "title": "ประวัติการทำรายการ",
+    "type": "พิมพ์",
+    "time": "เวลา",
+    "coin": "เหรียญ",
+    "status": "สถานะ",
+    "placeholder": "ป้อน Txn Hash",
+    "exporthistory": "ประวัติการส่งออก",
+    "clearAll": "ลบทั้งหมด",
+    "table": {
+      "time": "เวลา",
+      "type": "พิมพ์",
+      "amount": "จำนวน",
+      "coin": "เหรียญ",
+      "network": "เครือข่าย",
+      "txID": "Txn ID",
+      "txnID": "Txn Hash",
+      "fee": "ค่าธรรมเนียม",
+      "destination": "ปลายทาง",
+      "status": "สถานะ"
+    },
+    "filter": {
+      "past30Days": "30 วันที่ผ่านมา",
+      "past7Days": "7 วันที่ผ่านมา",
+      "yesterday": "เมื่อวาน",
+      "deposit": "เงินฝาก",
+      "withdraw": "ถอน",
+      "completed": "สมบูรณ์",
+      "confirming": "ยืนยัน",
+      "failed": "ล้มเหลว",
+      "rejected": "ถูกปฏิเสธ",
+      "processing": "กำลังประมวลผล",
+      "expired": "หมดอายุ",
+      "pending": "รอดำเนินการ",
+      "cancelled": "ยกเลิก",
+      "all": "ทั้งหมด"
+    }
+  },
+  "notification": {
+    "title": "การแจ้งเตือน",
+    "readAll": "อ่านประกาศทั้งหมดแล้ว"
+  },
+  "order-history": {
+    "title": "ประวัติการสั่งซื้อ",
+    "time": "เวลา",
+    "side": "ด้านข้าง",
+    "coin": "เหรียญ",
+    "status": "สถานะ",
+    "exporthistory": "ประวัติการส่งออก",
+    "clearAll": "ลบทั้งหมด",
+    "table": {
+      "time": "เวลา",
+      "side": "ด้านข้าง",
+      "coin": "เหรียญ",
+      "amount": "จำนวน",
+      "price": "ราคา",
+      "fee": "ค่าธรรมเนียม",
+      "status": "สถานะ"
+    },
+    "filter": {
+      "past30Days": "30 วันที่ผ่านมา",
+      "past7Days": "7 วันที่ผ่านมา",
+      "yesterday": "เมื่อวาน",
+      "buy": "ซื้อ",
+      "sell": "ขาย",
+      "all": "ทั้งหมด"
+    }
+  },
+  "resetPassword": {
+    "title": "รีเซ็ตรหัสผ่าน"
+  },
+  "wallet": {
+    "title": "กระเป๋าสตางค์",
+    "estimatedTitle": "ยอดพอร์ตการลงทุนโดยประมาณ",
+    "estimatedChange24H": "เปลี่ยนยอดคงเหลือ 24 ชั่วโมง",
+    "fiatBalance": "ยอดดุลเฟียต",
+    "fiatActions": {
+      "deposit": "ฝาก",
+      "withdraw": "ถอนออก"
+    },
+    "cryptoBalance": "ยอดเงินคริปโต",
+    "cryptoActions": "จัดการสมุดที่อยู่",
+    "table": {
+      "colCoin": "เหรียญ",
+      "colTotal": "ทั้งหมด",
+      "colAvailable": "มีจำหน่าย",
+      "colInorder": "ตามลำดับ",
+      "colThbValue": "มูลค่าบาท",
+      "colActions": "การกระทำ"
+    },
+    "kycStatus": {
+      "title": "ยืนยัน KYC",
+      "message": "บัญชีของคุณต้องได้รับการยืนยัน KYC กรุณากรอก KYC บนแอปพลิเคชันมือถือ"
+    },
+    "twoFaStatus": {
+      "title": "เปิดใช้งาน Two FA",
+      "message": "โปรดเปิดใช้งาน FA สองตัว"
+    },
+    "modalConfirm": {
+      "title": "เปิดใช้งาน Two FA",
+      "message": "คุณต้องเปิดใช้งาน FA สองตัวเพื่อใช้ฟังก์ชันนี้",
+      "okText": "ตกลง",
+      "cancelText": "ข้าม"
+    }
+  },
+  "depositWithdraw": {
+    "totalBalance": "ยอดรวม",
+    "availableBalance": "ยอดเงินคงเหลือ",
+    "iodBalance": "ในการสั่งซื้อสมดุล",
+    "saveQrCode": "บันทึก QR Code",
+    "amount": "จำนวนเงิน",
+    "transactionId": "รหัสธุรกรรม",
+    "ref": "ข้อมูลอ้างอิง",
+    "showMoreHistory": "แสดงประวัติเพิ่มเติม",
+    "crypto": {
+      "deposit": {
+        "info": {
+          "desOne": "ส่งเฉพาะ BTC ไปยังที่อยู่ฝากเงิน",
+          "desTwo": "ตรวจสอบให้แน่ใจว่าเครือข่ายเป็น Bitcoin",
+          "desThree": "คาดว่าจะมาถึง",
+          "desFour": "การยืนยันเครือข่าย",
+          "desFive": "ตรวจสอบให้แน่ใจว่าคุณได้เลือกเครือข่ายเดียวกันบนแพลตฟอร์มที่คุณถอนเงินสำหรับการฝากเงินนี้ มิฉะนั้น คุณจะสูญเสียทรัพย์สินของคุณ"
+        }
+      },
+      "withdraw": {
+        "info": {
+          "desOne": "ถอนขั้นต่ำ",
+          "desTwo": "ขีดจำกัดรายวันที่เหลืออยู่",
+          "desThree": "คาดว่าจะมาถึง",
+          "desFour": "การยืนยันเครือข่าย",
+          "desFive": "ใช้เครือข่ายเดียวกันกับกระเป๋าสตางค์ของผู้รับ มิฉะนั้น ทรัพย์สินจะสูญหาย"
+        },
+        "addressBook": {
+          "addressBook": "สมุดที่อยู่",
+          "manageAddressBook": "จัดการสมุดที่อยู่",
+          "netWork": "เครือข่าย",
+          "address": "ที่อยู่",
+          "tagMemo": " แท็ก/บันทึก",
+          "fee": "ค่าธรรมเนียม",
+          "yWillRecive": "คุณจะได้รับ",
+          "resultSuccessTitle": "ส่งการถอนออกแล้ว",
+          "ressultFailedTitle": "การถอนล้มเหลว",
+          "resultSuccessMes": "เราจะส่งอีเมลถึงคุณเมื่อมีการอัปเดตสถานะการถอนคำสั่งซื้อ",
+          "resultFailedMes": "คำขอถอนเงินของคุณไม่สามารถดำเนินการได้ โปรดลองอีกครั้งในภายหลัง",
+          "resquestedAmount": "จำนวนที่ขอ",
+          "toAddress": "ไปยังที่อยู่",
+          "toTagMemo": "การแท็ก/บันทึก",
+          "receiveAmount": "จำนวนเงินที่ได้รับ"
+        },
+        "newAddressBook": {
+          "fee": "ค่าธรรมเนียม",
+          "yWillRecive": "คุณจะได้รับ",
+          "resultSuccessTitle": "ส่งการถอนออกแล้ว",
+          "ressultFailedTitle": "การถอนล้มเหลว",
+          "resultSuccessMes": "เราจะส่งอีเมลถึงคุณเมื่อมีการอัปเดตสถานะการถอนคำสั่งซื้อ",
+          "resultFailedMes": "คำขอถอนเงินของคุณไม่สามารถดำเนินการได้ โปรดลองอีกครั้งในภายหลัง",
+          "resquestedAmount": "จำนวนที่ขอ",
+          "toAddress": "ไปยังที่อยู่",
+          "toTagMemo": "การแท็ก/บันทึก",
+          "receiveAmount": "จำนวนเงินที่ได้รับ",
+          "btnSaveAddress": "บันทึกที่อยู่ใหม่",
+          "placeHoldrAddress": "โปรดป้อนที่อยู่ชื่อย่อ",
+          "messSaveNewAddressBookSuccess": "บันทึกที่อยู่ใหม่สำเร็จ"
+        }
+      }
+    },
+    "fiat": {
+      "deposit": {
+        "info": {
+          "desOne": "ฝากขั้นต่ำ",
+          "desTwo": "ห้ามฝากระหว่าง",
+          "desThree": "เงินฝากนี้ใช้ได้จนถึง",
+          "desFour": "ห้ามใช้คิวอาร์โค้ดซ้ำ",
+          "desFive": "ตรวจสอบให้แน่ใจว่าคุณได้เลือกเครือข่ายเดียวกันบนแพลตฟอร์มที่คุณถอนเงินสำหรับการฝากเงินนี้ มิฉะนั้น คุณจะสูญเสียทรัพย์สินของคุณ",
+          "desSix": "ฝากได้เท่านั้น",
+          "dexSeven": "จากบัญชีของคุณได้รับการอนุมัติใน Maxbit",
+          "desEight": "อย่าใช้ซ้ำ",
+          "desNight": "รหัส QR",
+          "desTen": "ห้ามฝากระหว่าง",
+          "and": "23:30 และ 00:15",
+          "desTwel": "เงินฝากนี้ใช้ได้จนถึง"
+        }
+      },
+      "withdraw": {
+        "info": {
+          "desOne": "ถอนขั้นต่ำ",
+          "desTwo": "ขีดจำกัดรายวันที่เหลืออยู่"
+        }
+      }
+    },
+    "tabs": {
+      "depositHistory": "ประวัติการฝากเงิน",
+      "withdrawHistory": "ถอนประวัติ",
+      "deposit": "ฝาก",
+      "withdraw": "ถอนออก"
+    },
+    "table": {
+      "col": {
+        "date": "วันที่",
+        "bay": "อ่าว",
+        "bank": "ธนาคาร",
+        "amount": "จำนวน",
+        "status": "สถานะ",
+        "txid": "ปลายทาง",
+        "confirmations": "ยืนยัน",
+        "accountNumber": "หมายเลขบัญชี"
+      },
+      "data": {
+        "status": {
+          "completed": "เสร็จสิ้น",
+          "failed": "ล้มเหลว",
+          "pending": "รอดำเนินการ"
+        }
+      }
+    },
+    "fee": "ค่าธรรมเนียม",
+    "yWillRecive": "คุณจะได้รับ",
+    "resultSuccessTitle": "ส่งการถอนออกแล้ว",
+    "ressultFailedTitle": "การถอนล้มเหลว",
+    "resultSuccessMes": "เราจะส่งอีเมลถึงคุณเมื่อมีการอัปเดตสถานะการถอนคำสั่งซื้อ",
+    "resultFailedMes": "คำขอถอนเงินของคุณไม่สามารถดำเนินการได้ โปรดลองอีกครั้งในภายหลัง",
+    "amount": "จำนวนเงิน",
+    "transactionID": "รหัสธุรกรรม",
+    "messageFail": "อืม....ไม่สามารถเข้าถึงฟังก์ชันนี้ได้"
+  },
+  "address-book": {
+    "title": "จัดการสมุดที่อยู่",
+    "formTitle": "เพิ่มสมุดที่อยู่",
+    "addNew": "เพิ่มสมุดที่อยู่ใหม่",
+    "modal": "สร้างสมุดที่อยู่ใหม่เรียบร้อยแล้ว!!!",
+    "confirmModal": "คุณแน่ใจหรือว่าต้องการลบที่อยู่นี้?",
+    "table": {
+      "name": "ชื่อสั้น",
+      "coin": "เหรียญ",
+      "network": "เครือข่าย",
+      "address": "ที่อยู่",
+      "tagMemo": " Tag/Memo",
+      "action": "หนังบู๊",
+      "remove": "ลบ"
+    },
+    "form": {
+      "shortName": "ชื่อสั้น",
+      "coin": "เหรียญ",
+      "address": "ที่อยู่",
+      "network": "เครือข่าย",
+      "tagMemo": "Tag/Memo",
+      "labelPlh": "กรุณากรอกชื่อย่อ",
+      "selectCoin": "กรุณาเลือกเหรียญ",
+      "addressPlh": "กรุณากรอกที่อยู่",
+      "networkPlh": "กรุณาเลือกเครือข่าย",
+      "tagPlh": "กรุณากรอกบันทึก/ Tag ID",
+      "btnSubmit": "ส่ง"
+    }
+  },
+  "trade": {
+    "buyCrypto": {
+      "tagBuy": "ซื้อ",
+      "market": "ตลาด",
+      "available": "ยอดเงินคงเหลือ",
+      "placeholderAmountSpend": "จำนวนเงินที่คุณใช้ไป",
+      "placeholderAmountReceive": "จำนวนเงินที่คุณได้รับ",
+      "estimate": "ราคาโดยประมาณ",
+      "fee": "ค่าธรรมเนียม",
+      "btnBuy": "ซื้อ"
+    },
+    "cryptoPreview": {
+      "titleBuy": "ดูตัวอย่างคำสั่งซื้อ",
+      "titleSell": "ดูตัวอย่างคำสั่งขาย",
+      "instrument": "อุปกรณ์",
+      "direction": "ทิศทาง",
+      "buy": "ซื้อ",
+      "sell": "ขาย",
+      "amount": "จำนวน",
+      "price": "ราคา",
+      "fee": "ค่าธรรมเนียม",
+      "receive": "คุณจะได้รับ",
+      "time": "คำสั่งซื้อของคุณจะหมดอายุใน",
+      "btn": "ยืนยัน",
+      "btnCancel": "ยกเลิก"
+    },
+    "tradeCryptoResult": {
+      "time": "วันเวลา",
+      "id": "รหัสธุรกรรม",
+      "instrument": "อุปกรณ์",
+      "direction": "ทิศทาง",
+      "buy": "ซื้อ",
+      "sell": "ขาย",
+      "amount": "จำนวน",
+      "price": "ราคา",
+      "fee": "ค่าธรรมเนียม",
+      "receive": "คุณจะได้รับ",
+      "btn": "ปิด I",
+      "titleBuySuccess": "ซื้อสำเร็จ",
+      "titleBuyFailed": "ซื้อล้มเหลว",
+      "descriptionBuyFailed": "ไม่สามารถดำเนินการสั่งซื้อของคุณได้ กรุณาลองใหม่อีกครั้งในภายหลัง",
+      "titleSellSuccess": "ขายสำเร็จ",
+      "titleSellFailed": "ขายล้มเหลว",
+      "descriptionSellFailed": "ไม่สามารถดำเนินการคำสั่งขายของคุณได้ กรุณาลองใหม่อีกครั้งในภายหลัง"
+    },
+    "sellCrypto": {
+      "tagSell": "ขาย",
+      "market": "ตลาด",
+      "available": "ยอดเงินคงเหลือ",
+      "placeholderAmountSpend": "จำนวนเงินที่คุณใช้ไป",
+      "placeholderAmountReceive": "จำนวนเงินที่คุณได้รับ",
+      "estimate": "ราคาโดยประมาณ",
+      "fee": "ค่าธรรมเนียม",
+      "btnSell": "ขาย"
+    },
+
+    "header": {
+      "lastMarket": "ราคาตลาดล่าสุด",
+      "change": "เปลี่ยน 24 ชม"
+    },
+    "orderHistory": {
+      "title": "ประวัติการสั่งซื้อ",
+      "showMore": "แสดงมากขึ้น",
+      "date": "วันที่",
+      "pair": "คู่",
+      "side": "ด้านข้าง",
+      "price": "ราคา",
+      "amount": "จำนวน",
+      "status": "สถานะ"
+    }
+  },
+  "change-phone": {
+    "btnGoBack": "บัญชีผู้ใช้",
+    "modalSuccess": "เปลี่ยนโทรศัพท์สำเร็จ!!! คลิกตกลงเพื่อเปลี่ยนเส้นทางหน้าการตั้งค่า",
+    "form": {
+      "title": "เปลี่ยนโทรศัพท์",
+      "newPhone": "หมายเลขโทรศัพท์ใหม่",
+      "newPhonePlh": "ใส่หมายเลขโทรศัพท์ของคุณ",
+      "sendTo": "OTP จะส่งไปที่",
+      "plhOTP": "ใส่รหัสของคุณ",
+      "ggAuthen": "ป้อนรหัสรับรองความถูกต้องของ Google (2FA)",
+      "phlGGAuthen": "รหัส Google Authentication 6 หลัก",
+      "btnSubmit": "ส่ง"
+    }
+  },
+  "reset-password": {
+    "descriptionBanner": "รหัสผ่านต้องมีอย่างน้อย 8 สัญลักษณ์ที่ประกอบด้วยตัวพิมพ์เล็ก ตัวพิมพ์ใหญ่ อักขระพิเศษและตัวเลข (12 ตัว)"
+  },
+  "preventWhenNo2FA": {
+    "title": "เปิดใช้งานสอง FA",
+    "message": "คุณต้องเปิดใช้งาน FA สองตัวเพื่อใช้ฟังก์ชันนี้"
+  }
+}

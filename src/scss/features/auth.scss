@@ -1,0 +1,296 @@
+.login {
+  max-width: 390px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  .login__title {
+    text-align: center;
+    cursor: default;
+  }
+  .login__form {
+    width: 100%;
+    label {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  .other-options {
+    width: 100%;
+    display: flex;
+    column-gap: 28px;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+  }
+}
+.register {
+  max-width: 390px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 1000px;
+  .register__title {
+    text-align: center;
+    cursor: default;
+  }
+
+  .register__form {
+    width: 100%;
+    label {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .info-banner {
+      margin-bottom: 20px;
+      cursor: default;
+    }
+  }
+}
+
+.verify-account {
+  max-width: 390px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 1000px;
+  .verify-account__title {
+    text-align: center;
+    cursor: default;
+  }
+
+  .verify-account__form {
+    width: 100%;
+    label {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .info-banner {
+      margin-bottom: 20px;
+      cursor: default;
+    }
+  }
+}
+
+// RESET GOOGLE AUTHENTICATION
+.reset-google-authentication {
+  color: #555555;
+  max-width: 390px;
+  margin: 0 auto;
+
+  .reset-google-authentication-head {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    margin-bottom: 24px;
+    .reset-google-authentication-head__title {
+      text-align: center;
+      line-height: 32px;
+    }
+  }
+
+  .reset-google-authentication-form {
+    label {
+      font-weight: 500;
+    }
+
+    .reset-google-authentication-form__info {
+      margin: 0 auto;
+
+      .reset-google-authentication-form__info-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .reset-google-authentication-form__info-paraphrase {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 16px;
+        margin-top: 10px;
+      }
+
+      .reset-google-authentication-form__info-evm {
+        font-size: 14px;
+        text-align: left;
+      }
+    }
+
+    form {
+      margin-top: 30px;
+
+      .ant-row
+        .ant-col
+        .ant-form-item-control-input
+        .ant-form-item-control-input-content
+        .ant-checkbox-wrapper
+        span:nth-child(2) {
+        color: #474d57;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+      }
+
+      .ant-upload-text {
+        font-weight: 500;
+      }
+
+      .ant-row.ant-form-item {
+        margin-bottom: 30px;
+      }
+    }
+
+    .info-banner {
+      margin-bottom: 30px;
+    }
+  }
+}
+// ---------------------------
+
+// CHANGE PHONE
+.change-phone {
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: $product-body-padding;
+  &__head {
+    margin-bottom: 23.91px;
+  }
+  &__form {
+    width: 390px;
+
+    margin: 0 auto;
+
+    &__title {
+      text-align: center;
+
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 30px;
+
+      margin-bottom: 40px;
+    }
+
+    .changePhone__form {
+      .ant-form-item-label {
+        & > label {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+//-------------
+
+// CHANGE EMAIL
+.change-email {
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: $product-body-padding;
+
+  &__head {
+    margin-bottom: 24.09px;
+  }
+
+  &__form {
+    width: 390px;
+    margin: 0 auto;
+    &-title {
+      text-align: center;
+
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 30px;
+
+      margin-bottom: 40px;
+    }
+
+    .ant-form-item-label {
+      & > label {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+
+    button.ant-btn.ant-btn-ghost {
+      width: 100%;
+    }
+  }
+}
+
+//-------------
+
+// RESET PASSWORDS
+.reset-ui {
+  color: #555555;
+  max-width: 390px;
+  margin: 0 auto;
+
+  .reset-ui-head {
+    margin-bottom: 24px;
+  }
+
+  .reset-ui-head__title {
+    text-align: center;
+  }
+
+  .reset-ui-form {
+    label {
+      font-weight: 500;
+    }
+
+    .info-banner {
+      margin-bottom: 24px;
+    }
+  }
+}
+// --------- RESPONSIVE ---------
+/* Mobile width < 740px*/
+@media only screen and (max-width: 46.1875em) {
+}
+
+/* Tablet width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .reset-ui {
+    max-width: 420px;
+  }
+}
+
+// ---------------
+
+@media only screen and (max-device-width: 767px) {
+  .change-email {
+    &__head {
+      span.breadcrumb {
+        & > span:nth-child(2) {
+          font-size: 20px;
+        }
+      }
+    }
+    &__form {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  .change-phone {
+    &__head {
+      span.breadcrumb {
+        & > span:nth-child(2) {
+          font-size: 20px;
+        }
+      }
+    }
+    &__form {
+      width: 100%;
+    }
+  }
+}

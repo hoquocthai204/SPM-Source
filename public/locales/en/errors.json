@@ -1,0 +1,954 @@
+{
+  "register": {
+    "validation": {
+      "email": {
+        "required": "Email is required",
+        "pattern": "Invalid email address",
+        "maxLength": "Email must be lesser than 200 characters"
+      },
+      "password": {
+        "required": "Password is required",
+        "pattern": "Password is invalid",
+        "maxLength": "Password must be lesser than 128 characters"
+      },
+      "confirmPassword": {
+        "required": "Confirm password is required",
+        "pattern": "The two passwords that you entered do not match!"
+      },
+      "mobilePhone": {
+        "required": "Mobile Phone is required",
+        "pattern": "Mobile Phone is invalid"
+      },
+      "referralCode": {
+        "pattern": "Referral Code must only 8 digits"
+      },
+      "checkBox": {
+        "required": "You have not agreed to the terms"
+      }
+    }
+  },
+  "verifyAccount": {
+    "email": {
+      "required": "Email Verification Code is required",
+      "pattern": "Email Verification Code must only 6 digits"
+    },
+    "phone": {
+      "required": "Phone Number Verification Code is required",
+      "pattern": "Phone Number Verification Code must only 6 digits"
+    }
+  },
+  "login": {
+    "validation": {
+      "email": {
+        "required": "Email is required",
+        "pattern": "Invalid email address"
+      },
+      "password": {
+        "required": "Password is required"
+      },
+      "twoFA": {
+        "pattern": "2 FA is invalid"
+      }
+    }
+  },
+  "changePassword": {
+    "validation": {
+      "currentPassword": {
+        "required": "Current password is required"
+      },
+      "newPassword": {
+        "required": "New password is required",
+        "pattern": "Password is invalid"
+      },
+      "confirmNewPassword": {
+        "required": "Confirm password is required",
+        "pattern": "Password and confirm password is not match"
+      }, 
+      "2fa": {
+        "required": "2FA is required"
+      }
+    }
+  },
+  "trade": {
+    "systemDisabled": "Trading function was disabled by administrator.",
+    "enterAmount": "Please enter a valid number",
+    "disableCurrency": "This currency is disabled",
+    "lesserThanMax": "Amount must be less than {{0}}",
+    "largerThanMin": "Amount must be greater than {{0}}",
+    "lesserThanAvailable-top-up": "Your balance is insufficient. Do you want to make a deposit ?",
+    "lesserThanAvailable-top-up-title": "Insufficient balance",
+    "lesserThanAvailable-top-up-btn": "Deposit Now",
+
+    "noResponse": "No has response",
+    "unableToBuy": "Unable to buy this currency",
+    "unableToSell": "Unable to sell this currency"
+  },
+  "add-user-bank": {
+    "validation": {
+      "bankNumber": {
+        "required": "Bank Number is required",
+        "mustBe10digits": "Account number must be 10 digits",
+        "mustBe12digits": "Account number must be 12 digits"
+      },
+      "holderName": {
+        "required": "Holder Name is required",
+        "lessThan50Characters": "Your holder name must be less than 50 characters"
+      },
+      "fileUpload": {
+        "required": "Document is required",
+        "size": "This file is too large",
+        "extension": "Only the following formats are accepted: .jpeg, .jpg, .png"
+      },
+      "bankBranch": {
+        "required": "Bank is required"
+      },
+      "ggCode": {
+        "required": "2FA is required",
+        "max6Digits": "2FA is invalid"
+      }
+    }
+  },
+  "address-book": {
+    "validation": {
+      "name": {
+        "required": "Short name is required"
+      },
+      "coin": {
+        "required": "Coin is required"
+      },
+      "address": {
+        "required": "Address is required"
+      },
+      "network": {
+        "required": "Network is required"
+      },
+      "tagMemo": {
+        "required": "Memo/Tag is required"
+      }
+    }
+  },
+  "change-email": {
+    "validation": {
+      "mustBe6digits": "Verification code is invalid",
+      "email": {
+        "required": "Verification code is required",
+        "invalid": "Invalid email address",
+        "newEmailRequired": "Your New Email is required"
+      },
+      "ggCode": {
+        "required": "2FA is required",
+        "invalidCode": "2FA is invalid"
+      }
+    }
+  },
+  "change-phone": {
+    "validation": {
+      "oldPhone": {
+        "required": "OTP is required",
+        "max6Digits": "OTP is valid"
+      },
+      "newPhone": {
+        "numberRequired": "New Phone Number is required",
+        "invalidNumber": "Mobile Phone is valid",
+        "required": "OTP is required",
+        "max6Digits": "OTP is valid"
+      },
+      "ggCode": {
+        "required": "2FA is required",
+        "max6Digits": "2FA is valid"
+      }
+    }
+  },
+  "field": {
+    "emergencyContactPhoneNumber": "Emergency contact phone number",
+    "phoneNumber": "Phone number",
+    "passportNumber": "Passport number",
+    "identityNumber": "Identity number",
+    "sendUpdateUserPhoneNumber": { "phoneNumber": "Phone number" }
+  },
+  "common": {
+    "error": {
+      "file-upload-invalid": "File upload is invalid.",
+      "recaptcha-invalid": "Recaptcha is invalid."
+    }
+  },
+  "auth": {
+    "error": {
+      "authentication": {
+        "invalid": {
+          "credentials": "Your username, password or 2FA do not match.",
+          "credentials-title": "Login failed"
+        }
+      },
+      "login": {
+        "account": {
+          "blocked": "Account was blocked by administrator.",
+          "blocked-title": "Login failed",
+          "temporary": {
+            "blocked": "Your account suspended for 30 mins",
+            "blocked-title": "Login failed"
+          }
+        }
+      },
+      "config": {
+        "key": {
+          "notfound": "Configuration key not found."
+        }
+      }
+    },
+    "validate": {
+      "email": {
+        "required": "Email can't be blank."
+      },
+      "password": {
+        "required": "Password can't be blank."
+      },
+      "platform": {
+        "required": "Platform can't be blank.",
+        "type": {
+          "invalid": "Platform invalid."
+        }
+      },
+      "twofa": {
+        "code": {
+          "invalid": "2FA code must be 6 digits."
+        }
+      }
+    }
+  },
+  "content": {
+    "error": {
+      "blog-content-translation-not-found": "Blogs content translation not found",
+      "required": "Field required."
+    }
+  },
+  "user": {
+    "validation": {
+      "invalid": "is invalid."
+    },
+    "error": {
+      "sms-otp.notfound-title": "Verify your account",
+      "referral-code-not-found": "Invalid referral code",
+      "ndid": {
+        "verification": {
+          "cancel": "Your NDID request was canceled. Please try again!",
+          "fail": "Your NDID request was failed. Please try again!",
+          "rejected": "You have rejected your identity verification. Please retry or select another Identity Provider."
+        }
+      },
+      "user-not-found": "User not found.",
+      "send-mail-fail": "Error occurs when send email.",
+      "token-not-found": "You have entered an incorrect phone or email verification code. Please try again",
+      "token-not-found-title": "Verify your account",
+      "token-expired": "OTP has expired.",
+      "send-mail-and-notify-fail": "Error occurs when send email and notification.",
+      "wrong-current-password": "Wrong current password.",
+      "new-password-duplicated-title": "Change Password Failed",
+      "new-password-duplicated": "New password is duplicated with current password.",
+      "email-already-exists-title": "Send request change email",
+      "email-already-exists": "Email already exists.",
+      "having-user-active": "Having user active",
+      "send-sms-fail": "An error occurs when send SMS message.",
+      "add-user-questionaire-fail": "Add user questionaire fail.",
+      "email-otp-code-not-found": "You have entered an incorrect email verification code. Please try again",
+      "block-user": {
+        "user-unactive": "Could not block un-active user."
+      },
+      "unblock-user": {
+        "user-not-block-status": "Could not un-block user that not in block status."
+      },
+      "user": {
+        "was-deleted": "User was deleted."
+      },
+      "block-unblock": {
+        "invalid-status": "Invalid status, just accept BLOCK or ACTIVE status."
+      },
+      "zendesk": {
+        "auth-exception": "Authentication with Zendesk server fail.",
+        "sync-fail": "Synchronize user account to Zendesk server fail.",
+        "delete-fail": "Delete user account from Zendesk server fail."
+      },
+      "sms": {
+        "message": {
+          "already": {
+            "sent": "SMS OTP already sent. Please wait for a few minutes."
+          }
+        }
+      },
+      "user-detail": {
+        "phone-no-empty": "Phone number required for verification.",
+        "phone-update-same-current-title": "Send request change phone",
+        "phone-update-same-current": "The new phone must be difference from current phone.",
+        "phone-already-taken": "The phone already taken.",
+        "phone-already-taken-title": "Verify your account",
+        "phone": {
+          "update": {
+            "fail": "An error occurs when update phone number verification status."
+          }
+        }
+      },
+      "update-phone": {
+        "send-new-phone": {
+          "fail": "Send SMS update phone to new phone number fail."
+        },
+        "send-old-phone": {
+          "fail": "Send SMS update phone to old phone number fail."
+        },
+        "send-sms": {
+          "fail": "Send SMS update phone is fail."
+        }
+      },
+      "update-mail": {
+        "new-email": {
+          "same-current-title": "Send request change email",
+          "same-current": "The new email update is the same as the current email."
+        }
+      },
+      "phone-number": {
+        "not-verified": "The user phone number is not verified."
+      },
+      "phone-number-update-phone": {
+        "not-found": "The phone number for update phone not found."
+      },
+      "ocr": {
+        "customer-identity-notfound": "Customer identity not found.",
+        "file-size": {
+          "maxlimit": "Maximum file size allow is 5MB."
+        }
+      },
+      "ekyc": {
+        "idrecognition": {
+          "no-required-id": "ID image incorrect.",
+          "blur": "Image is blur.",
+          "no-face-detected": "No face detected for the uploaded image.",
+          "no-real-doc": "The ID image uploaded is detected as fake.",
+          "exposure": "The ID image uploaded is exposure.",
+          "unknown-error": "ID recognition unknown error occurs.",
+          "fail": "ID recognition fail"
+        },
+        "not": {
+          "complete": "Please complete EKYC process before submission."
+        },
+        "realid": {
+          "init": {
+            "fail": "Request initialize real id fail.",
+            "notfound": "Request initialize real id not found for KYC."
+          },
+          "checkresult": {
+            "fail": "Request check result real id fail.",
+            "face-liveness-attack": "Face selfie detected as a fake.",
+            "face-verification-fail": "Face verification process running fails.",
+            "id-verification-fail": "ID verification process running fails.",
+            "pending": "ID spoofing verification status is pending.",
+            "inprocess": "ID spoofing verification status is inprocess.",
+            "cancelled": "ID spoofing verification status is cancelled.",
+            "timeout": "ID spoofing verification status is timeout.",
+            "save-data-fail": "Error occurs when save EKYC response result.",
+            "id": {
+              "no-face-detected": "No face detected from uploaded ID document.",
+              "verification": {
+                "tamper-check-fail": "ID verification tampering check fails.",
+                "material-check-fail": "ID verification material check fails.",
+                "screen-recapture-check-fail": "Image upload recapture from screen.",
+                "other-spoof-check-fail": "Result of other check fails.",
+                "no-require-id": "The ID upload do not match with specified identity document type.",
+                "blur": "The uploaded identity document image is blurred.",
+                "no-real-doc": "The uploaded identity document image is detected as fake.",
+                "exposure": "The uploaded identity document image is overexposed.",
+                "other-recognition-error": "All the other recognition errors.",
+                "risk-check-fail": "The risk control process fails.",
+                "velocity-high-risk": "High risks are detected.",
+                "network-high-risk": "A fake attack risk is detected through the ID network check."
+              }
+            }
+          }
+        }
+      },
+      "kyc": {
+        "front-img-required": "Front image required.",
+        "back-img-required": "Back image required.",
+        "selfie-img-required": "Selfie image required.",
+        "passport-img-required": "Passport image required.",
+        "passport-number-existed": "already exists.",
+        "identity-number-existed": "already exists.",
+        "already": {
+          "submit": "Your KYC is in review process.",
+          "inprocess": "KYC is already in-process."
+        },
+        "not": {
+          "found": "KYC not found.",
+          "accepted": "KYC status must be accepted."
+        },
+        "type": {
+          "not-manual": "Please complete EKYC on mobile application.",
+          "not-ekyc": "Please complete manual submit on websites."
+        }
+      },
+      "sms-otp": {
+        "notfound": "You have entered an incorrect mobile phone verification code. Please try again.",
+        "notfound-title": "Verify your account",
+        "expired": "SMS OTP expired."
+      },
+      "language-code": {
+        "update": {
+          "fail": "Language code update fail."
+        }
+      },
+      "destroy": {
+        "session": {
+          "fail": "An error occurs destroy session."
+        }
+      },
+      "login": {
+        "reach": {
+          "maxlimit": "Your account is reaching max login session. You can click OK to force logout all session.",
+          "maxlimit-title": "Login failed"
+        }
+      },
+      "phone": {
+        "code": {
+          "invalid": "Phone code is invalid."
+        }
+      },
+      "2fa": {
+        "code-required-title": "",
+        "code-required": "",
+        "google": {
+          "not-enable-title": "Withdraw Failed",
+          "not-enable": "Google 2FA is not enable.",
+          "code-invalid-title": "Code was invalid",
+          "code-invalid": "Google 2FA code is invalid.",
+          "codeinvalid-title": "Enable Google 2-Factor (2FA) unsuccessfully",
+          "codeinvalid": "Google 2FA code is invalid.",
+          "enable": {
+            "already": "Google 2FA already enable."
+          }
+        },
+        "sms": {
+          "enable": {
+            "already": "SMS 2FA already enable."
+          }
+        },
+        "reset": {
+          "request-inprocess-title": "Reset 2FA Fail",
+          "request-inprocess": "Can't make request because reset 2FA is inprocess.",
+          "request-not-found": "Reset 2FA request not found."
+        }
+      },
+      "renew": {
+        "session": {
+          "fail": "Can not renew your session."
+        }
+      },
+      "email-otp": {
+        "notfound": "Email OTP not found"
+      },
+      "sms-otp-resetpassword": {
+        "notfound": "SMS OTP not found"
+      }
+    },
+    "validate": {
+      "2fa": {
+        "code": {
+          "blank": "Google 2FA code cannot be blank."
+        }
+      },
+      "user": {
+        "id": {
+          "null": "User ID can't be null."
+        }
+      },
+      "platform": {
+        "blank": "Platform can't be blank."
+      },
+      "session-id": {
+        "blank": "Session ID can't be blank."
+      },
+      "country-code": {
+        "blank": "Country code can't be blank."
+      },
+      "session-expiry": {
+        "null": "Session expire time can't be null."
+      },
+      "current": {
+        "session": {
+          "id": {
+            "blank": "Current session ID can't be blank."
+          }
+        }
+      },
+      "new": {
+        "session": {
+          "id": {
+            "blank": "New session ID can't blank."
+          }
+        }
+      },
+      "email": {
+        "null": "Email can't be null.",
+        "invalid": "Email does not match with regulation."
+      },
+      "password": {
+        "invalid": "Password does not match with regulation."
+      },
+      "web-url": {
+        "blank": "Web URL can't be blank."
+      },
+      "google-secret": {
+        "blank": "Google secret can't be blank."
+      },
+      "language-code": {
+        "notfound": "Language code not found."
+      },
+      "phone-number": {
+        "invalid": "Phone number is invalid."
+      }
+    }
+  },
+  "error": {
+    "undefined": "Unknown Error",
+    "bad-request": "Bad request",
+    "internal-server-error": "Internal Server Error",
+    "unauthorized": "Session timeout !",
+    "not": {
+      "null": "Field required"
+    },
+    "email": {
+      "invalid": "Email does not match with regulation."
+    },
+    "password": {
+      "invalid": "Password does not match with regulation.",
+      "length": "Password is out of range."
+    }
+  },
+  "lp": {
+    "error": {
+      "trading": {
+        "failed-to-block-balance": "Order fail.",
+        "order-not-matching": "Order not matching.",
+        "user-disabled-trading": "User trading disabled.",
+        "minimum": "Minimum of trading is {0} THB",
+        "maximum": "Maximum of trading is {0} THB",
+        "minimum-price-movement": "Price should only has {0} decimals",
+        "minimum-amount-movement": "Amount should only has {0} decimals",
+        "system-disabled-trading": "Trading function was disabled by administrator."
+      }
+    }
+  },
+  "wallet": {
+    "wallet": {
+      "not-found": "The wallet did not create yet."
+    },
+    "withdrawal": {
+      "disabled": "Withdrawal was disabled for this coin!",
+      "disabled-title": "Withdraw was disabled"
+    },
+    "validation": {
+      "required": "Field required.",
+      "positive": "Field must be number and greater than zero.",
+      "account-number": "Account number must be between 10 - 12 digits.",
+      "bank-has-been-disable-enable": "This bank status previous has been disable or enable.",
+      "currency-incorrect-type-or-disabled": "The currency is not exist or disabled.",
+      "bank-id-not-found": "Bank id not found.",
+      "user-wallets-snapshot": {
+        "dt": {
+          "invalid": "The date must represent a valid instant in UTC (such as 2007-12-03T10:15:30.00Z)"
+        }
+      },
+      "currency": {
+        "invalid": "The currency or token is not supported or not compiled."
+      },
+      "withdrawal": {
+        "exists-withdrawal-is-processing-title": "Your withdraw was failed",
+        "exists-withdrawal-is-processing": "A withdrawal is still in progress. Please wait its completion before submitting a new one.",
+        "tag-memo": {
+          "invalid-title": "Tag/Memo",
+          "invalid": "Invalid Tag/Memo. Please try again."
+        },
+        "tag": {
+          "xrp-invalid": "Memo/Tag is invalid.",
+          "xlm-invalid": "Memo/Tag is invalid."
+        },
+        "address": {
+          "invalid": "Address is invalid.",
+          "user-self-wallet-title": "Address is invalid",
+          "user-self-wallet": "Could not withdraw to your self wallet."
+        },
+        "network": {
+          "invalid": "Network is invalid."
+        },
+        "amount": {
+          "balance-insufficient": "Insufficient balance.",
+          "dust": "Dust withdrawal amount.",
+          "min": "Withdraw amount should be greater than zero.",
+          "max": "Too large withdrawal amount.",
+          "reached-limit-in-day": "You have reached the limit withdrawal in a day. Please try on the next day."
+        },
+        "transaction": {
+          "reached-per-hour-title": "Withdraw",
+          "reached-per-hour": "You have reached amount of transaction per hour. Please try again after 1 hour."
+        }
+      },
+      "deposit": {
+        "disabled": "Deposit was disabled for coin {0} and network {1}. Please try again later.",
+        "amount": {
+          "reached-limit-in-day-title": "Deposit Failed",
+          "reached-limit-in-day": "You have reached amount deposit per day. Please try again after 24 hours."
+        }
+      },
+      "error": {
+        "not": {
+          "null": "Field can't be blank."
+        }
+      }
+    },
+    "error": {
+      "bank-not-found": "Bank not found.",
+      "account-number-invalid-title": "Error",
+      "account-number-invalid": "Your account number is invalid.",
+      "account-number-already-exists": "This account is already in your list",
+      "account-number-already-exists-title": "Error", 
+      "user-bank-reach-limit": "User can't add more than 20 bank accounts.",
+      "duplicate-user-address-book": "Your saved address already exists.",
+      "duplicate-user-address-book-title": "Save address failed"
+    }
+  },
+  "fiat": {
+    "validation": {
+      "withdrawal": {
+        "amount": {
+          "reached-limit-in-day": "You have reached amount withdraw per day. Please try again after 24 hours."
+        },
+        "transaction": {
+          "reached-per-hour": "You have reached amount of transaction per hour. Please try again after 1 hour."
+        }
+      }
+    },
+    "setting": {
+      "currency-incorrect-type-or-disabled": "Currency is incorrect or disabled. Please try again later.",
+      "deposit": {
+        "disabled-title": "Deposit was disabled",
+        "disabled": "Deposit is disabled. Please try again later.",
+        "minimum-deposit": "You must deposit larger than minimun amount."
+      },
+      "withdraw": {
+        "disabled-title": "Withdraw was disabled",
+        "disabled": "Withdraw is disabled. Please try again later.",
+        "minimum-withdraw": "You must withdraw larger than minimun amount.",
+        "maximum-withdraw": "You must withdraw less than maximum amount."
+      },
+      "invalid": {
+        "exchange-active-accounts": "Exchange bank account is inactive. Please contact with us for more detail."
+      }
+    },
+    "withdraw": {
+      "invalid": {
+        "bank-id": "Your bank account is invalid. Please contact with us for more detail."
+      },
+      "exists-withdraw-is-processing-title": "We could not process",
+      "exists-withdraw-is-processing": "Your withdrawal is processing. You can't create new withdrawal until it done."
+    },
+    "deposit": {
+      "exists-deposit-is-processing": "Your deposit is processing. You can't create new deposit until it done."
+    }
+  },
+  "alertSuccess": {
+    "resetPassword": {
+      "message": "Reset Password was success. Please login to get started"
+    }
+  },
+  "verify-kyc": {
+    "non-thai": {
+      "identity-form": {
+        "validation": {
+          "passport": {
+            "required": "Upload Passport is required"
+          },
+          "selfie": {
+            "required": "Upload Selfie Image is required"
+          }
+        }
+      },
+      "personal-form": {
+        "validation": {
+          "passport": {
+            "required": "Passport is required"
+          },
+          "first-name": {
+            "required": "First Name is required"
+          },
+          "last-name": {
+            "required": "Last Name is required"
+          },
+          "title-name": {
+            "required": "Title Name is required"
+          },
+          "nationality": {
+            "required": "Nationality is required"
+          },
+          "gender": {
+            "required": "Gender is required"
+          },
+          "dob": {
+            "required": "Date of birth is required",
+            "mustBe18": "Our apologies, you must be 18 years old to able to trade on Maxbit"
+          }
+        }
+      },
+      "residential-form": {
+        "validation": {
+          "address": {
+            "required": "Address is required"
+          },
+          "district": {
+            "required": "District is required"
+          },
+          "state": {
+            "required": "State is required"
+          },
+          "postalCode": {
+            "required": "Postal Code is required"
+          },
+          "province": {
+            "required": "Province is required"
+          }
+        }
+      },
+      "occupation-form": {
+        "validation": {
+          "occupation": {
+            "required": "Occupation is required"
+          },
+          "position": {
+            "required": "Position is required"
+          },
+          "company": {
+            "required": "Company name is required"
+          },
+          "country": {
+            "required": "Country is required"
+          },
+          "address": {
+            "required": "Address ( House No., Building, Street ) is required"
+          },
+          "province": {
+            "required": "Province is required"
+          },
+          "district": {
+            "required": "District is required"
+          },
+          "postalCode": {
+            "required": "Postal Code is required"
+          },
+          "first-name": {
+            "required": "First Name is required"
+          },
+          "last-name": {
+            "required": "Last Name is required"
+          },
+          "phone-number": {
+            "required": "Phone Number is required"
+          }
+        }
+      },
+      "license-form": {
+        "validation": {
+          "license-type": {
+            "required": "Type of ID you can upload is required"
+          },
+          "file": {
+            "required": "Document is required"
+          }
+        }
+      },
+      "questionnaire-form": {
+        "validation": {
+          "required": "You must choose an answer"
+        }
+      }
+    },
+    "thai": {
+      "identity-form": {
+        "validation": {
+          "identityNumber": {
+            "required": "Identity Number is required",
+            "max": "Input exceed 13 characters limit",
+            "onlyNumber": "Identity Number allows only number"
+          },
+          "passport": {
+            "required": "Upload Passport is required"
+          },
+          "selfie": {
+            "required": "Upload Selfie Image is required"
+          }
+        }
+      },
+      "personal-form": {
+        "validation": {
+          "passport": {
+            "required": "Passport is required"
+          },
+          "first-name": {
+            "required": "First Name is required"
+          },
+          "last-name": {
+            "required": "Last Name is required"
+          },
+          "title-name": {
+            "required": "Title Name is required"
+          },
+          "nationality": {
+            "required": "Nationality is required"
+          },
+          "gender": {
+            "required": "Gender is required"
+          },
+          "dob": {
+            "required": "Date of birth is required",
+            "mustBe18": "Our apologies, you must be 18 years old to able to trade on Maxbit"
+          }
+        }
+      },
+      "residential-form": {
+        "validation": {
+          "address": {
+            "required": "Address is required"
+          },
+          "district": {
+            "required": "District is required"
+          },
+          "state": {
+            "required": "State is required"
+          },
+          "postalCode": {
+            "required": "Postal Code is required"
+          },
+          "province": {
+            "required": "Province is required"
+          }
+        }
+      },
+      "occupation-form": {
+        "validation": {
+          "occupation": {
+            "required": "Occupation is required"
+          },
+          "position": {
+            "required": "Position is required"
+          },
+          "company": {
+            "required": "Company name is required"
+          },
+          "country": {
+            "required": "Country is required"
+          },
+          "address": {
+            "required": "Address is required"
+          },
+          "province": {
+            "required": "Province is required"
+          },
+          "district": {
+            "required": "District is required"
+          },
+          "postalCode": {
+            "required": "Postal Code is required"
+          },
+          "first-name": {
+            "required": "First Name is required"
+          },
+          "last-name": {
+            "required": "Last Name is required"
+          },
+          "phone-number": {
+            "required": "Phone Number is required"
+          }
+        }
+      },
+      "license-form": {
+        "validation": {
+          "license-type": {
+            "required": "Type of ID you can upload is required"
+          },
+          "file": {
+            "required": "Document is required"
+          }
+        }
+      },
+      "questionnaire-form": {
+        "validation": {
+          "required": "You must choose an answer"
+        }
+      }
+    }
+  },
+  "reset-gg-authen": {
+    "title-failed": "Reset 2FA fail",
+    "reset-succes": "Reset 2FA success",
+    "validation": {
+      "email": {
+        "required": "Email is required",
+        "pattern": "Invalid email address"
+      },
+      "verifyEmail": {
+        "required": "OTP is required"
+      },
+      "uploadIdCard": {
+        "required": "Please upload ID card or Passport",
+        "mesExtensionOne": "The file that you attempted to upload",
+        "mesExtensionTwo": "is not supported. Only .jpeg, .jpg, .png files are accepted"
+      }
+    }
+  },
+  "reset-password": {
+    "validation": {
+      "newPassword": {
+        "required": "New password is required",
+        "pattern": "Password length must be larger than 10"
+      },
+      "cofirmNewPassword": {
+        "required": "Confirm password is required",
+        "pattern": "Password confirm not match"
+      }
+      
+    }
+  },
+  "input": {
+    "validation": {
+      "authenticationCode": {
+        "required": "Verification code is required",
+        "pattern": "Verification code is invalid"
+      },
+      "2fa":{
+        "required": "2FA is required",
+        "allowNumber": "2FA is invalid"
+      },
+      "bankBranch": {
+        "required": "Bank branch is required"
+      },
+      "amount": {
+        "required": "Amount is required",
+        "minValue": "Amount must larger than ",
+        "limitWithdraw": "Amount must smaller than limit withdraw today",
+        "limitDepositFiat": "Amount must smaller than limit deposit today",
+        "maxValue": "Amount must smaller than",
+        "checkErrorAmount": {
+          "largerFee": "Amount to spend must larger than",
+          "largerThan": "Amount must larger than",
+          "smallerThan": "Amount must smaller than",
+          "smallerAvaiable": "Amount to spend must smaller than",
+          "dailyWithdrawToday": "Amount to spend must less than "
+        }
+      },
+      "verifyBankAccount": {
+        "required": "Bank account is required"
+      },
+      "address": {
+        "required": "Address is required"
+      },
+      "tagMemo": {
+        "required": "Tag/Memo is required"
+      }
+    }
+  }
+}

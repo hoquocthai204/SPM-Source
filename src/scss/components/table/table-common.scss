@@ -1,0 +1,70 @@
+.table-container {
+  .table-common {
+    .ant-table-container {
+      table > thead > tr:first-child {
+        th {
+          padding: 4px 30px;
+          border-radius: 0;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 16px;
+          color: #808080;
+
+          &::before {
+            display: none;
+          }
+        }
+      }
+      .ant-table-tbody > tr {
+        > td {
+          padding: 16px 30px;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          color: #474d57;
+        }
+      }
+    }
+
+    .table-pagination {
+      padding: 12px 30px;
+      margin: 0;
+      display: flex;
+      position: relative;
+
+      .ant-pagination-options {
+        display: none;
+      }
+
+      li {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:first-child {
+          position: absolute;
+          left: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 46.1875em) {
+  .table-container {
+    .table-common {
+      .table-pagination {
+        li:first-child {
+          display: block;
+          width: 100%;
+          text-align: right;
+          position: unset;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,984 @@
+{
+  "404": "Sorry, the page you visited does not exist.",
+  "backHome": "Back Home",
+  "title": {
+    "loginPage": "Log In | Maxbit",
+    "signupPage": "Sign Up | Maxbit",
+    "verifyAccountPage": "Verify Account | Maxbit",
+    "changePassword": "Change Password | Maxbit",
+    "sessionHistory": "Session History | Maxbit",
+    "market": "Market | Maxbit",
+    "trade": "Trade | Maxbit"
+  },
+  "common": {
+    "sendCode": "Resend",
+    "uploadFileText": "Click or drag file to this area to upload",
+    "trade": "Trade",
+    "verifyKYC": "Verify KYC",
+    "addBankAccount": "Add Bank Account",
+    "showAll": "Showing {{start}} to {{end}} of {{total}} results"
+  },
+  "header": {
+    "market": "Market",
+    "trade": "Trade",
+    "wallet": "Wallet",
+    "news": "News",
+    "blog": "Blog",
+    "login": "Log In",
+    "register": "Register",
+    "download": "Downloads",
+    "downloadDisplayText": "Scan to Download App IOS & Android",
+    "language": "Language",
+    "history": "History",
+    "notification": "Notification",
+    "setting": "Setting",
+    "collapse": "Collapse",
+    "logout": "Logout",
+    "order": "Order",
+    "transaction": "Transaction"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "termsConditions": "Terms  & Conditions",
+    "coinInfos-listingRules": "Coin Infos & Listing Rules",
+    "buy/sellRules": "Buy & Sell Rules",
+    "privacyPolicy": "Privacy Policy",
+    "aml/ctpfPolicy": "AML/CTPF Policy",
+    "news": "News",
+    "chat": "Chat with Support",
+    "help": "Help ( FAQ & Tickets )",
+    "content1": "The 3-minute newsletter with fresh takes on the financial news you need to start your day.",
+    "content2": "© 2022 Maxbit. All rights reserved. \nMaxbit means Maxbit Markets and its in-application and web experiences with its family of wholly owned subsidiaries which includes Maxbit Financial, Maxbit Securities, and Maxbit Crypto. \nAll investments involve risks, including the possible loss of capital. \nSecurities trading is offered to self-directed customers by Maxbit Financial. Maxbit Financial is a member of the Financial Industry Regulatory Authority (FINRA)."
+  },
+  "landing": {
+    "bannerTitle": "New era of \nCrypto Investment",
+    "bannerSubtitle": "Best Rate, Fast and Secure User-friendly exchange for Thai people",
+    "getStarted": "Get Started",
+    "topMovers": "Top Movers",
+    "seeAllCoins": "See All Coins",
+    "seeAllBlogs": "See All Blogs",
+    "marketComparison": "Market Comparison",
+    "no": "NO",
+    "name": "NAME",
+    "competition": "COMPETITION",
+    "gaps": "GAPS",
+    "action": "ACTION",
+    "buy": "Buy",
+    "sell": "Sell",
+    "seeAllNews": "See All News",
+    "stepHeader": "How To Get Started",
+    "stepsDetail": "Simple and easy way to start your investment in cryptocurrency",
+    "stepTitle": "Create Your Account",
+    "stepSubtitle": "Your account and personal identity are guaranteed safe.",
+    "stepTitle2": "Verify Your KYC",
+    "stepSubtitle2": "Completing KYC verification benefits account security, withdrawal and trading privileges.",
+    "stepTitle3": "Connect Bank Account",
+    "stepSubtitle3": "Connect the bank account to start transactions.",
+    "stepTitle4": "Start Build Portfolio",
+    "stepSubtitle4": "Buy and sell popular currencies and keep track of them.",
+    "blogHeader": "Learn About Cryptocurrency",
+    "blogDetail": "Learn all about cryptocurrency to start investing"
+  },
+  "news": {
+    "updated": "Updated",
+    "sideTitle": "Related Blogs",
+    "news": "News",
+    "showMore": "Show more"
+  },
+  "login": {
+    "title": "Login To Maxbit",
+    "form": {
+      "email": "Email",
+      "emailPlaceholder": "Email address",
+      "password": "Password",
+      "passwordPlaceholder": "Password",
+      "authCode": "Enter your Google authentication code (2FA)",
+      "authCodePlaceholder": "Google authentication code",
+      "loginBtn": "Log In",
+      "forgotPassword": "Forgot password?",
+      "resetAuthCode": "Reset my Google Authenticator",
+      "register": "I don't have an account yet"
+    }
+  },
+  "setUp2FA": {
+    "title1": "Setup",
+    "title2": "Google Authenticator",
+    "installApp": "Install Google Authentication to your phone if you don't have it yet.",
+    "security": "Security",
+    "popUpInfo": "You already set up Google Authenticator. Click OK to redirect setting page",
+    "popUpSuccess": "Set up Google Authenticator successfully. Click OK to re-login!!!",
+    "form": {
+      "authCode": "Authentication Code",
+      "authCodePlaceholder": "Enter the 6-digit code from Google Authentication",
+      "btnNext": "Next",
+      "btnBack": "Back",
+      "btnConfirm": "Confirm",
+      "notiInfo": "Scan the QR code with Google Authenticator or put the key in Google Authenticator app"
+    },
+    "validation": {
+      "2FA": {
+        "required": "Please enter your code from Google Authentication",
+        "pattern": "2FA is invalid"
+      }
+    }
+  },
+  "register": {
+    "title": "Create Your Account",
+    "form": {
+      "banner": "Password must contain at least 10 symbols combination with lowercase, uppercase letter, special character and numbers ( 12 advised )",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "phoneNumber": "Phone Number",
+      "phoneNumberPlaceholder": "Enter your phone number",
+      "password": "Password",
+      "passwordPlaceholder": "Minimum 10 characters",
+      "cfPassword": "Confirm Password",
+      "cfPasswordPlaceholder": "Minimum 10 characters",
+      "referralCode": "Referral Code (optional)",
+      "referralCodePlaceholder": "Referral Code",
+      "firstCheckBox": "I accept the Terms & Conditions, AML Policy, User Agreement and Privacy Policy of Maxbit",
+      "secondCheckBox": "I am not US citizen, Resident or Green card holder and I am not subject to FATCA requirement",
+      "loginBtn": "Create Account",
+      "login": "I already have an account."
+    }
+  },
+  "verify-account": {
+    "title": "Verify Account",
+    "form": {
+      "banner": "Click to Send code to send the verification code to your email and sms.",
+      "email": "OTP will be sent to ",
+      "emailPlaceholder": "Enter your Code",
+      "phone": "OTP will be sent to ",
+      "phonePlaceholder": "Enter your Code",
+      "verifyAccountBtn": "Submit"
+    }
+  },
+  "manage-bank": {
+    "title": "Manage Bank Account",
+    "bankName": "Bank Name",
+    "bankNumber": "Bank Number",
+    "status": "Status",
+    "action": "Action",
+    "addNewBank": "Add new bank",
+    "popUpConfirmDelete": "Are you sure to delete this bank?",
+    "popUpInfoAccessBank": "Your account must be verified to access this page"
+  },
+  "setting": {
+    "setting": "Setting",
+    "changePassword": {
+      "goBack": "Security",
+      "title": "Change Password",
+      "popUpSuccess": "Change password successfully. Please login again.",
+      "form": {
+        "banner": "Password must contain at least 8 symbols combination with lowercase, uppercase letter, special character and numbers ( 12 advised )",
+        "currentPassword": "Current password",
+        "currentPasswordPlaceholder": "Minimum 10 characters",
+        "newPassword": "New password",
+        "newPasswordPlaceholder": "Minimum 10 characters",
+        "cfNewPassword": "Confirm password",
+        "cfNewPasswordPlaceholder": "Minimum 10 characters",
+        "changePasswordBtn": "Submit"
+      }
+    },
+    "mainPage": {
+      "userID": "User ID",
+      "lastTimeLogin": "Last time login",
+      "showSessionHistory": "Show session history",
+      "copy": "Copy",
+      "title": "KYC Verification",
+      "detail": "Verified",
+      "detail01": "Verify now",
+      "groupHeader1": "Account Settings",
+      "title11": "Email",
+      "detail11": "Change the email",
+      "title12": "Phone",
+      "detail12": "Change the phone number",
+      "groupHeader2": "Security Settings",
+      "title21": "Password",
+      "detail21": "Change the password",
+      "title22": "Google Authenticator",
+      "detail22": "Setup Google Authenticator",
+      "groupHeader3": "Bank",
+      "title31": "Bank Account",
+      "detail31": "Manage Bank Accounts",
+      "groupHeader4": "Referral",
+      "title41": "Referral Code",
+      "title42": "Referral URL",
+      "title43": "Referral History",
+      "detail43": "Manage Referral History",
+      "groupHeader5": "Notification Settings",
+      "title51": "Notification Language"
+    },
+    "sessionHistory": {
+      "title": "Session History",
+      "currentTitle": "Current Session",
+      "pastTitle": "Past Session",
+      "platform": "PLATFORM",
+      "ip": "IP",
+      "time": "TIME",
+      "location": "LOCATION",
+      "terminateAll": "TERMINATE ALL",
+      "terminate": "Terminate",
+      "current": "Current",
+      "buttonPopupTerminalAll": "Are you sure to terminate all the current sessions?",
+      "buttonPopupTerminalById": "Are you sure to terminate this session?"
+    }
+  },
+  "referralHistory": {
+    "header": "Referral History",
+    "totalEarnings": "Total earnings",
+    "email": "EMAIL",
+    "earnings": "EARNINGS"
+  },
+  "add-user-bank": {
+    "title": "Add Bank Account",
+    "popUpSuccess": "Add bank successfully. Click OK to redirect Manage Bank page!!!",
+    "form": {
+      "infoBanner": "You must be owner of the bank account",
+      "bankBranchPlh": "Please choose a bank",
+      "bankNumber": "Bank Number",
+      "bankNumberplh": "Enter the bank number",
+      "holderName": "Holder Name",
+      "holderNamePlh": "Enter the holder name",
+      "uploadBookbank": "Upload Bookbank",
+      "uploadPlh": "Click or drag file to this area to upload",
+      "bankBranch": "Bank Branch",
+      "btnSubmit": "Submit",
+      "selectBank": "Select bank",
+      "ggCodeLabel": "Enter your Google Authentication code (2FA)",
+      "ggCodePlh": "6-digit Google Authentication code" 
+    }
+  },
+  "resetGoogleAuthenticator": {
+    "titleFirst": "Reset",
+    "titleSecond": "Google Authenticator",
+    "liFirst": "Please upload a an idetification photo  with your face clearly shown and the details of  the ID card / Passport clearly visible.",
+    "liSecond": "You must be the owner of the ID card / Passport",
+    "infoGoogleAuthenication": {
+      "paraphraseOne": "Strong security with",
+      "paraphraseTwo": "Google Authenticator",
+      "rule": "If you had previously saved your 16-digit recovery key for Google Authenticator when first setting it up on your phone, you can use this recovery key to quickly restore your Google Authenticator App, without having to manually reset your Google Authenticator."
+    },
+    "ruleCheckBoxOne": "Resetting your Google Authenticator settings will disable your 2FA protection. You need to set it again",
+    "ruleCheckBoxTwo": "Resetting your Google Authenticator  may take 24 - 48 hours.",
+    "labelUpload": "Upload ID card / Passport"
+  },
+  "form": {
+    "label": {
+      "email": "Email",
+      "emailVerify": "Email Vefiication Code",
+      "newEmail": "New Email",
+      "newEmailVerify": "New Email Vefiication Code",
+      "oldEmail": "Old Email",
+      "oldEmailVerify": "Old Email Vefiication Code",
+      "authenCode": "Authenticator Code",
+      "newPhone": "New Phone Number",
+      "phoneNumberVerify": "Phone Number Verification Code",
+      "newPassword": "New Password",
+      "phone": "Phone Number",
+      "confirmNewPassword": "Confirm New Password",
+      "netWork": "Network",
+      "address": "Address",
+      "tagMemo": "Tag/Memo",
+      "bankBranch": "Bank Branch",
+      "amount": "Amount",
+      "authenticationCode": "Authentication Code",
+      "verifyBankAccount": "Your Verified Bank Account",
+      "hideSmallAmount": "Hide small amount",
+      "emailAuthenCode": "Email authentication code",
+      "phoneAuthenCode": "Phone authentication code"
+    },
+    "placeholder": {
+      "email": "Enter the email",
+      "emailVerify": "Please enter email authenication code",
+      "newEmail": "Enter new email",
+      "authenCode": "Enter the 6-digit code from Google Authenticator",
+      "phoneNumberVerify": "Please enter sms authenication code",
+      "phone": "Mobile",
+      "newPassword": "Enter your new password",
+      "confirmNewPassword": "Enter your new password again",
+      "netWork": "Select network",
+      "bankBranch": "Select a bank branch",
+      "amount": "Enter amount",
+      "authenticationCode": "Enter the 6-digit code from Google Authenticator",
+      "address": "Enter the address",
+      "verifyBankAccount": "Select a your bank",
+      "tagMemo": "Enter the tag/memo",
+      "searchCoin": "Search Coin...",
+      "emailAuthenCode": "Enter email authentication code",
+      "phoneAuthenCode": "Enter sms authentication code"
+    },
+    "nameButton": {
+      "next": "Next",
+      "submit": "Submit",
+      "withdraw": "Withdraw",
+      "close": "Close",
+      "deposit": "Deposit",
+      "trade": "Trade",
+      "saveNewAddress": "Save New Address"
+    },
+    "messEnterDigitCode": "Enter the 6-digit code send to"
+  },
+  "changeEmail": {
+    "title": "Change My Email",
+    "successModal": "Change email successfully!!! Click OK to redirect login page",
+    "sendTo": "Code will send to",
+    "btnGoback": "Back",
+    "form": {
+      "newEmail": "Your New E-mail",
+      "emailPlh": "Email address",
+      "enterYourCode": "Enter your Code",
+      "ggCode": "Google authentication code",
+      "enterGGCode": "Enter your Google authentication code (2FA)",
+      "2faCode": "Google authentication code"
+    }
+  },
+  "changePhone": {
+    "title": "Change Phone"
+  },
+  "btnGoBack": {
+    "account": "Account"
+  },
+  "transaction-history": {
+    "title": "Transaction History",
+    "type": "Type",
+    "time": "Time",
+    "coin": "Coin",
+    "status": "Status",
+    "placeholder": "Enter Txn Hash",
+    "exporthistory": "Export History",
+    "clearAll": "Clear All",
+    "table": {
+      "time": "Time",
+      "type": "Type",
+      "amount": "Amount",
+      "coin": "Coin",
+      "network": "Network",
+      "txID": "Txn ID",
+      "txnID": "Txn Hash",
+      "fee": "Fee",
+      "destination": "Destination",
+      "status": "Status"
+    },
+    "filter": {
+      "past30Days": "Past 30 days",
+      "past7Days": "Past 7 days",
+      "yesterday": "Yesterday",
+      "deposit": "Deposit",
+      "withdraw": "Withdraw",
+      "completed": "Completed",
+      "confirming": "Confirming",
+      "failed": "Failed",
+      "rejected": "Rejected",
+      "processing": "Processing",
+      "expired": "Expired",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "all": "All"
+    }
+  },
+  "market": {
+    "title": "Market",
+    "tab": {
+      "all": "All",
+      "watchList": "Watch List",
+      "topMover": "Top Movers",
+      "compare": "Compare"
+    },
+    "tabWatchlist": "Watchlist",
+    "search": "Search Coin",
+    "coin": "COIN",
+    "maxbit": "MAXBIT",
+    "competitor": "COMPETITOR",
+    "gaps": "GAPS",
+    "24hChange": "24HCHANGE",
+    "action": "ACTION",
+    "trade": "Trade",
+    "buy": "Buy",
+    "sell": "Sell",
+    "watchList": {
+      "title": "Please log in to see your favorites coin",
+      "login": "Login",
+      "or": "or",
+      "register": "Register"
+    }
+  },
+  "notification": {
+    "title": "Notification",
+    "readAll": "All notices have been read"
+  },
+  "trade": {
+    "buyCrypto": {
+      "tagBuy": "Buy",
+      "market": "Market",
+      "available": "Available balance",
+      "placeholderAmountSpend": "Amount you spend",
+      "placeholderAmountReceive": "Amount you receive",
+      "estimate": "Estimated price",
+      "fee": "Fee",
+      "btnBuy": "Buy"
+    },
+    "cryptoPreview": {
+      "titleBuy": "Preview Buy Order",
+      "titleSell": "Preview Sell Order",
+      "instrument": "Instrument",
+      "direction": "Direction",
+      "buy": "Buy",
+      "sell": "Sell",
+      "amount": "Amount",
+      "price": "Price",
+      "fee": "Fee",
+      "receive": "You will receive",
+      "time": "Your order will expired in",
+      "btn": "Confirm",
+      "btnCancel": "Cancel"
+    },
+    "tradeCryptoResult": {
+      "time": "Date Time",
+      "id": "Transaction ID",
+      "instrument": "Instrument",
+      "direction": "Direction",
+      "buy": "Buy",
+      "sell": "Sell",
+      "amount": "Amount",
+      "price": "Price",
+      "fee": "Fee",
+      "receive": "You will receive",
+      "btn": "Close",
+      "titleBuySuccess": "Buy Successful",
+      "titleBuyFailed": "Buy Failed!",
+      "descriptionBuyFailed": "Your buy order could not be performed. Please try again later",
+      "titleSellSuccess": "Sell Successful",
+      "titleSellFailed": "Sell Failed!",
+      "descriptionSellFailed": "Your sell order could not be performed. Please try again later"
+    },
+    "sellCrypto": {
+      "tagSell": "Sell",
+      "market": "Market",
+      "available": "Available balance",
+      "placeholderAmountSpend": "Amount you spend",
+      "placeholderAmountReceive": "Amount you receive",
+      "estimate": "Estimated price",
+      "fee": "Fee",
+      "btnSell": "Sell"
+    },
+
+    "header": {
+      "lastMarket": "Last market price",
+      "change": "24h Change"
+    },
+    "orderHistory": {
+      "title": "Order history",
+      "showMore": "Show more",
+      "date": "DATE",
+      "pair": "PAIR",
+      "side": "SIDE",
+      "price": "PRICE",
+      "amount": "AMOUNT",
+      "status": "STATUS"
+    }
+  },
+  "order-history": {
+    "title": "Order History",
+    "time": "Time",
+    "coin": "Coin",
+    "side": "Side",
+    "exporthistory": "Export History",
+    "clearAll": "Clear All",
+    "table": {
+      "time": "Time",
+      "side": "Side",
+      "coin": "Coin",
+      "amount": "Amount",
+      "price": "Price",
+      "fee": "Fee",
+      "status": "status"
+    },
+    "filter": {
+      "past30Days": "Past 30 days",
+      "past7Days": "Past 7 days",
+      "yesterday": "Yesterday",
+      "buy": "Buy",
+      "sell": "Sell",
+      "all": "All"
+    }
+  },
+  "resetPassword": {
+    "title": "Reset Password"
+  },
+  "wallet": {
+    "title": "Wallet",
+    "estimatedTitle": "Estimated portfolio balance",
+    "estimatedChange24H": "Change 24h balance",
+    "fiatBalance": "Fiat balance",
+    "fiatActions": {
+      "deposit": "Deposit",
+      "withdraw": "Withdraw"
+    },
+    "cryptoBalance": "Crypto balance",
+    "cryptoActions": "Manage Address Book",
+    "table": {
+      "colCoin": "COIN",
+      "colTotal": "TOTAL",
+      "colAvailable": "AVAILABLE",
+      "colInorder": "IN ORDER",
+      "colThbValue": "THB VALUE",
+      "colActions": "ACTIONS"
+    },
+    "kycStatus": {
+      "title": "Verify KYC",
+      "message": "Your account must be verified KYC. Please complete KYC on mobile application."
+    },
+    "twoFaStatus": {
+      "title": "Enable Two FA",
+      "message": "Please enabled two FA."
+    },
+    "modalConfirm": {
+      "title": "Enabled Two FA",
+      "message": "You need enable two FA to use this function",
+      "okText": "OK",
+      "cancelText": "SKIP"
+    }
+  },
+  "depositWithdraw": {
+    "totalBalance": "Total Balance",
+    "availableBalance": "Available balance",
+    "iodBalance": "In order balance",
+    "saveQrCode": "Save QR Code",
+    "amount": "Amount",
+    "transactionId": "Transaction ID",
+    "ref": "Reference",
+    "ref02": "Reference 2",
+    "showMoreHistory": "Show more history",
+    "crypto": {
+      "deposit": {
+        "info": {
+          "desOne": "Send only {{ shortName }} to this deposit address",
+          "desTwo": "Ensure the network is {{fullName}}",
+          "desThree": "Expected arrival",
+          "desFour": "network confirmation",
+          "desFive": "Make sure you also selected the same network on the platform where you are withdrawing funds for this deposit. Otherwise, you’ll lose your assets."
+        }
+      },
+      "withdraw": {
+        "info": {
+          "desOne": "Minimum withdraw",
+          "desTwo": "Daily remaining limit",
+          "desThree": "Expected arrival",
+          "desFour": "network confirmation",
+          "desFive": "Use the same network as recipient’s wallet or else the assets will be lost",
+          "desSix": "Maximum withdraw"
+        },
+        "addressBook": {
+          "addressBook": "Address Book",
+          "manageAddressBook": "Manage Address Book",
+          "netWork": "Network",
+          "address": "Address",
+          "tagMemo": " Tag/Memo",
+          "fee": "Fee",
+          "yWillRecive": "You will receive",
+          "resultSuccessTitle": "Withdraw Submitted",
+          "ressultFailedTitle": "Withdraw Failed",
+          "resultFailedMes": "Your withdraw request could not be performed. Please try again later",
+          "resultSuccessMes": "We will send you an email when your withdraw order status updates",
+          "resquestedAmount": "Requested amount",
+          "toAddress": "To address",
+          "toTagMemo": "To tag/memo",
+          "receiveAmount": "Receive amount"
+        },
+        "newAddressBook": {
+          "fee": "Fee",
+          "yWillRecive": "You will receive",
+          "resultSuccessTitle": "Withdraw Submitted",
+          "ressultFailedTitle": "Withdraw Failed",
+          "resultSuccessMes": "We will send you an email when your withdraw order status updates",
+          "resultFailedMes": "Your withdraw request could not be performed. Please try again later",
+          "resquestedAmount": "Requested amount",
+          "toAddress": "To address",
+          "toTagMemo": "To tag/memo",
+          "receiveAmount": "Receive amount",
+          "btnSaveAddress": "Save new address",
+          "placeHoldrAddress": "Please enter short name address",
+          "messSaveNewAddressBookSuccess": "Save New Address Success"
+        }
+      }
+    },
+    "fiat": {
+      "deposit": {
+        "info": {
+          "desOne": "Min deposit",
+          "desTwo": "Do not deposit between",
+          "desThree": "This deposit is valid until",
+          "desFour": "Do not re-use the QR code",
+          "desFive": "Make sure you also selected the same network on the platform where you are withdrawing funds for this deposit. Otherwise, you’ll lose your assets.",
+          "desSix": "You can only deposit",
+          "dexSeven": "from your accounts approved in Maxbit",
+          "desEight": "Do not re-use the",
+          "desNight": "QR-code",
+          "desTen": "Do not deposit between",
+          "and": "23:30 and 00:15",
+          "desTwel": "This deposit is valid until"
+        }
+      },
+      "withdraw": {
+        "info": {
+          "desOne": "Min withdraw",
+          "desTwo": "Daily remaining limit",
+          "desThree": "Max withdraw"
+        }
+      }
+    },
+    "tabs": {
+      "depositHistory": "Deposit History",
+      "withdrawHistory": "Withdraw History",
+      "deposit": "Deposit",
+      "withdraw": "Withdraw"
+    },
+    "table": {
+      "col": {
+        "date": "DATE",
+        "bay": "BAY",
+        "bank": "BANK",
+        "amount": "AMOUNT",
+        "status": "STATUS",
+        "txid": "DESTINATION",
+        "confirmations": "CONFIRMATIONS",
+        "accountNumber": "ACCOUNT NUMBER"
+      },
+      "data": {
+        "status": {
+          "completed": "Completed",
+          "failed": "Failed",
+          "pending": "Pending"
+        }
+      }
+    },
+    "fee": "Fee",
+    "yWillRecive": "You will receive",
+    "resultSuccessTitle": "Withdraw Submitted",
+    "ressultFailedTitle": "Withdraw Failed",
+    "resultSuccessMes": "We will send you an email when your withdraw order status updatesr",
+    "resultFailedMes": "Your withdraw request could not be performed. Please try again later",
+    "amount": "Amount",
+    "transactionID": "Transaction ID",
+    "messageFail": "Hmmm....can't reach this function"
+  },
+  "address-book": {
+    "title": "Manage Address Book",
+    "formTitle": "Add Address Book",
+    "addNew": "Add new address book",
+    "modal": "Created new address book successfully!!!",
+    "confirmModal": "Are you sure to delete this address?",
+    "table": {
+      "name": "Short Name",
+      "coin": "Coin",
+      "network": "Network",
+      "address": "Address",
+      "tagMemo": " Tag/Memo",
+      "action": "Action",
+      "remove": "Remove"
+    },
+    "form": {
+      "shortName": "Short Name",
+      "coin": "Coin",
+      "address": "Address",
+      "network": "Network",
+      "tagMemo": "Tag/Memo",
+      "labelPlh": "Please enter short name",
+      "selectCoin": "Please select a coin",
+      "addressPlh": "Please enter address",
+      "networkPlh": "Please select a network",
+      "tagPlh": "Please enter memo/ Tag ID",
+      "btnSubmit": "Submit"
+    }
+  },
+  "change-phone": {
+    "btnGoBack": "Account",
+    "modalSuccess": "Change phone successfully!!! Click OK to redirect setting page",
+    "form": {
+      "title": "Change Phone",
+      "newPhone": "New Phone Number",
+      "newPhonePlh": "Enter your phone number",
+      "sendTo": "OTP will send to",
+      "plhOTP": "Enter your Code",
+      "ggAuthen": "Enter your Google authentication code (2FA)",
+      "phlGGAuthen": "6-digit Google Authentication code",
+      "btnSubmit": "Submit"
+    }
+  },
+  "reset-password": {
+    "descriptionBanner": "Password must contain at least 8 symbols combination with lowsercase, uppercase letter, special characters and number (12 advised)"
+  },
+  "verify-kyc": {
+    "mainTitle": "Verify KYC Process",
+    "chooseCitizenship": "Choose your citizenship. Your information will remain confidential and only be used for verification.",
+    "thaiCitizen": "Thai citizen",
+    "nonThaiCitizen": "Non-Thai citizen",
+    "identityVerification": "Identity verification (KYC)",
+    "fillInfoTitle": "Please fill your information below: You information will remain confidential and only be used for verification.",
+    "verifyKYCLater": "Verify KYC later",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "next": "Next",
+    "accept": "Accept",
+    "decline": "Decline",
+    "useNdid": "Using NDID",
+    "ndidSuccess": "Your information has been successfully submitted !",
+    "identityNumber": "Identity Number",
+    "selectProvider": "Select your provider",
+    "selectOtherProvider": "Other option to verify",
+    "selectProviderTitle": "Please choose identity provider that you have already registered and have a mobile application ready for identity authentication",
+    "cancelProcess": "Do you want to cancel current process?",
+    "cancelNdidProcess": "Cancel NDID Process?",
+    "ndidCountdownSubtitle1": "Please verify your identity in the mobile application of the service provider within 60 minutes and resume the transaction here.",
+    "ndidCountdownSubtitle2": "You are verifing your identity for the purpose of RP name (Maxbit) and requiring to submit information from bank A (Transaction Ref: {{value}})",
+    "veridyKycWay": "Choose the easy way for you to verify",
+    "popUpSuccess": "Your verify KYC status is under review. Please wait for 24 hours to complete your verification",
+    "downloadApp": "Download mobile app to verify kyc",
+    "redirectLanding": "You have already set up KYC. Click OK to redirect landing page",
+    "btnGoBack": "Back",
+    "non-thai": {
+      "review-score": {
+        "title1": "You have completed the client suitability assessment.",
+        "title2": "Your risk level is",
+        "lowRisk": "Low risk",
+        "description": "Investing in digital assets is the highly risky. From doing your risk assessment, you can accept a small amount of investment risk or may not be able to accept the risks and fluctuations that occur from trading digital assets. If you accept such high risks and want to invest, please click “I understand”",
+        "btn": "I understand",
+        "modal": "Thanks for your submisstion"
+      },
+      "identity-form": {
+        "labelPassport": "Upload your passport",
+        "labelSelfie": "Upload your selfie image"
+      },
+      "residential-form": {
+        "title1": "Residential Address",
+        "title2": "Current Address",
+        "address": {
+          "label": "Address ( House No., Building, Street )",
+          "plh": "Please type your address"
+        },
+        "district": {
+          "label": "District",
+          "plh": "Please type your district"
+        },
+        "postalCode": {
+          "label": "Postal Code",
+          "plh": "Please type your postal code"
+        },
+        "state": {
+          "label": "State/Province/Region",
+          "plh": "Please type your State/Province/Region"
+        },
+        "currentAddress": "Current Address",
+        "sameAddress": "My current address is the same as the residential address",
+        "province": {
+          "label": "Province",
+          "plh": "Please type your province"
+        }
+      },
+      "occupation-form": {
+        "occupation": {
+          "label": "Occupation",
+          "plh": "Please choose your occupation"
+        },
+        "position": {
+          "label": "Work Position",
+          "plh": "Please type your work position"
+        },
+        "company": {
+          "label": "Company name",
+          "plh": "Please type your company name"
+        },
+        "country": {
+          "label": "Country",
+          "plh": "Please choose your country"
+        },
+        "address": {
+          "label": "Address (House No., Building, Street)",
+          "plh": "Please type your address"
+        },
+        "province": {
+          "label": "Province",
+          "plh": "Please type your province"
+        },
+        "district": {
+          "label": "District",
+          "plh": "Please type your district"
+        },
+        "postalCode": {
+          "label": "Postal Code",
+          "plh": "Please type your postal code"
+        },
+        "companyAddress": "Company address",
+        "occupations": "Occupation details",
+        "emergencyContact": "Emergency Contact (optional)",
+        "first-name": {
+          "label": "First name",
+          "plh": "Please type your first name"
+        },
+        "last-name": {
+          "label": "Last name",
+          "plh": "Please type your last name"
+        },
+        "phone-number": {
+          "label": "Phone number",
+          "plh": "Please type your phone number"
+        }
+      },
+      "license-form": {
+        "license-type": {
+          "label": "Types of ID you can upload",
+          "plh": "Select your type of license"
+        },
+        "file": {
+          "label": "You must be the owner of Driver's license"
+        }
+      },
+      "questionnaire-form": {
+        "title": "Suitability survey"
+      },
+      "personal-form": {
+        "title": "Personal Information",
+        "passport": {
+          "label": "Passport No.",
+          "plh": "Please type your passport no"
+        },
+        "title-name": {
+          "label": "Title Name",
+          "plh": "Please type your title name"
+        },
+        "first-name": {
+          "label": "First name",
+          "plh": "Please type your first name"
+        },
+        "last-name": {
+          "label": "Last name",
+          "plh": "Please type your last name"
+        },
+        "gender": {
+          "label": "Gender",
+          "plh": "Please choose your gender"
+        },
+        "nation": {
+          "label": "Nationality",
+          "plh": "Please choose your nationality"
+        },
+        "dob": {
+          "label": "Date of birth",
+          "plh": "Please choose your date of birth"
+        }
+      }
+    },
+    "thai": {
+      "residential-form": {
+        "title1": "Residential Address",
+        "title2": "Current Address",
+        "address": {
+          "label": "Address ( House No., Building, Street )",
+          "plh": "Please type your address"
+        },
+        "district": {
+          "label": "District",
+          "plh": "Please type your district"
+        },
+        "postalCode": {
+          "label": "Postal Code",
+          "plh": "Please type your postal code"
+        },
+        "currentAddress": "Current Address",
+        "sameAddress": "My current address is the same as the residential address",
+        "province": {
+          "label": "Province",
+          "plh": "Please type your province"
+        }
+      },
+
+      "occupation-form": {
+        "occupation": {
+          "label": "Occupation",
+          "plh": "Please choose your occupation"
+        },
+        "position": {
+          "label": "Work Position",
+          "plh": "Please type your work position"
+        },
+        "company": {
+          "label": "Company name",
+          "plh": "Please type your company name"
+        },
+        "country": {
+          "label": "Country",
+          "plh": "Please choose your country"
+        },
+        "address": {
+          "label": "Address",
+          "plh": "Please type your address"
+        },
+        "province": {
+          "label": "Province",
+          "plh": "Please type your province"
+        },
+        "district": {
+          "label": "District",
+          "plh": "Please type your district"
+        },
+        "postalCode": {
+          "label": "Postal Code",
+          "plh": "Please type your postal code"
+        },
+        "companyAddress": "Company address",
+        "occupations": "Occupation details",
+        "emergencyContact": "Emergency Contact (optional)",
+        "first-name": {
+          "label": "First name",
+          "plh": "Please type your first name"
+        },
+        "last-name": {
+          "label": "Last name",
+          "plh": "Please type your last name"
+        },
+        "phone-number": {
+          "label": "Phone number",
+          "plh": "Please type your phone number"
+        }
+      },
+
+      "personal-form": {
+        "title": "Personal Information",
+        "identityNumber": "Identity Number",
+        "nameEnglish": "Name Surname",
+        "nameThai": "Name Surname (In Thai)",
+        "maritalStatus": {
+          "label": "Marital Status",
+          "plh": "Please type your Marital Status"
+        },
+        "title-name": {
+          "label": "Title Name",
+          "plh": "Please type your title name"
+        },
+        "gender": {
+          "label": "Gender",
+          "plh": "Please choose your gender"
+        },
+        "nation": {
+          "label": "Nationality",
+          "plh": "Please choose your nationality"
+        },
+        "dob": {
+          "label": "Date of birth",
+          "plh": "Please choose your date of birth"
+        }
+      }
+    },
+    "descriptionBanner": "Password must contain at least 10 symbols combination with lowsercase, uppercase letter, special characters and number (12 advised)"
+  },
+  "preventWhenNo2FA": {
+    "title": "Enable Two FA",
+    "message": "You need to enable two FA to use this function"
+  },
+  "preventWhenNonKyc": {
+    "title": "Verify KYC",
+    "message": "Your account must be verified KYC. Please complete KYC on mobile application.",
+    "btnOk": "Verify KYC"
+  }
+}

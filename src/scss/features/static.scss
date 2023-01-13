@@ -1,0 +1,12 @@
+.static-content {
+  padding: $product-body-padding;
+  &__title {
+    font-weight: 600;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  &__content {
+    overflow-wrap: break-word;
+  }
+}

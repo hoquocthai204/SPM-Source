@@ -1,0 +1,208 @@
+.session-history-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: $product-body-padding;
+
+  .back-setting {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    height: 36px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: fit-content;
+    color: #1e2329;
+  }
+  .back-setting:hover {
+    color: #1e2329;
+  }
+  .current-session {
+    &__table {
+      border: 1px solid #e1e3e7;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      &__title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        justify-content: space-between;
+        .current-session__title__text {
+          padding: 10px;
+          display: flex;
+          align-items: center;
+        }
+        
+      }
+      .ant-table-pagination {
+        margin-right: 15px;
+      }
+
+      .ant-table-thead > tr > th {
+        color: #808080;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .ant-table-thead > tr > th:first-child {
+        border-radius: 0;
+        padding-left: 20px;
+      }
+      .ant-table-thead > tr > th:last-child {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        border-radius: 0;
+        text-align: right;
+        p {
+          margin: 0;
+          color: #b01212;
+        }
+      }
+      .ant-table-thead > tr > th::before {
+        display: none;
+      }
+
+      .ant-table-tbody > tr > td {  
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #474d57;
+        border-bottom: 1px solid #eaeaea;
+      }
+      .ant-table-measure-row {
+        display: none;
+      }
+
+      .ant-table-tbody > tr > td:last-child {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+
+        text-align: right;
+      }
+      .ant-table-tbody {
+        .ant-tag {
+          border: none;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .past-session {
+    &__table {
+      border: 1px solid #e1e3e7;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      &__title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        justify-content: space-between;
+        .past-session__title__text {
+          padding: 10px;
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .ant-table-thead > tr > th {
+        color: #808080;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+
+      .ant-table-thead > tr > th:first-child {
+        border-radius: 0;
+        padding-left: 20px;
+      }
+      .ant-table-thead > tr > th:last-child {
+        border-radius: 0;
+        text-align: right;
+      }
+      .ant-table-thead > tr > th::before {
+        display: none;
+      }
+
+      .ant-table-tbody > tr > td {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #474d57;
+        border-bottom: 1px solid #eaeaea;
+      }
+      .ant-table-measure-row {
+        display: none;
+      }
+      .ant-table-tbody > tr > td:last-child {
+        text-align: right;
+      }
+
+      .ant-table-tbody {
+        .ant-tag {
+          border: none;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  .current-session {
+    &__table {
+      &__title {
+        .current-session__title__img {
+          display: none;
+        }
+      }
+      
+      .ant-table-tbody > tr > td {
+        padding: 10px 30px !important;
+      }
+    }
+  }
+  .past-session {
+    &__table {
+      &__title {
+        .past-session__title__img {
+          display: none;
+        }
+      }
+      .ant-table-tbody > tr > td {
+        padding: 10px 30px !important;
+      }
+    }
+  }
+}

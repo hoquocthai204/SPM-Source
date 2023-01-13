@@ -1,0 +1,163 @@
+.set-up-2fa {
+  padding: $product-body-padding;
+  width: 100%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+
+  &__go-back {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 24px;
+
+    height: 30px;
+    .breadcrumb {
+      span:last-child {
+        font-size: 20px;
+      }
+    }
+    svg {
+      cursor: pointer;
+      width: 10px;
+      height: 16px !important;
+    }
+
+    .set-up-2fa__title {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  &__form {
+    margin: 0 auto;
+    text-align: center;
+
+    width: 390px;
+    height: 800px;
+
+    &__title {
+      height: 80px;
+
+      margin-left: 20px;
+      margin-right: 20px;
+
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+
+      color: #1e2329;
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    &__info {
+      margin: 25px 0 25px 0;
+
+      text-align: left;
+
+      font-weight: 400;
+      font-size: 12px;
+
+      line-height: 18px;
+      letter-spacing: -0.02em;
+    }
+    &__input {
+      margin-top: 20px;
+      text-align: left;
+
+      .setUp2FA__form {
+        label {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+    &__img {
+      width: 355px;
+      height: 240px;
+
+      margin: 0 auto;
+      & > img {
+        margin-top: 26px;
+      }
+    }
+    &__code {
+      width: 226px;
+      height: 21px;
+
+      margin: 0 82px 30px 82px;
+
+      display: flex;
+      justify-content: center;
+
+      .secretCode {
+        font-weight: 500;
+        font-size: 14px;
+
+        line-height: 21px;
+      }
+      & > span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: right;
+
+        color: #357ce1;
+      }
+    }
+    &__description {
+      margin: 0 26px 0 26px;
+
+      height: 42px;
+      width: 338px;
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    &__group-btn {
+      margin: 26px 26px 50px 26px;
+      height: 48px;
+
+      display: flex;
+      justify-content: space-between;
+
+      .download-app-store {
+        width: 142px;
+        cursor: pointer;
+
+        & > img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .download-ch-play {
+        width: 142px;
+        cursor: pointer;
+
+        & > img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    &__button--next {
+      & > button {
+        width: 100%;
+      }
+    }
+  }
+}
